@@ -790,7 +790,15 @@ export function doWhere(array, condition, callback) {
  * @param {function} condition 
  */
 export function rmWhere(array, condition) {
-    return doWhere(array, condition, (a, i) => a.splice(i, 1));
+    let counter = 0;
+    for (let i = 0; i < array.length; i++) {
+        if (condition(array[i])) {
+            array[i] = array[array.length - 1];
+            array.length --;
+            counter ++;
+        }
+    }
+    return counter;
 }
 
 /**

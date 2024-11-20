@@ -682,7 +682,9 @@ function rmSubject(subjectId) {
     for (let g of state.groups.filter(o => o.subjectId == subjectId)) {
       U.rmWhere(state.slots, o => o.groupId == g.id);
       // des-asigna profesores de sus grupos
-      U.rmWhere(cache.get(g.teacher).groups, x => x == g.id)
+      if (g.teacherId) {
+        U.rmWhere(cache.get(g.teacherId).groups, x => x == g.id)
+      }
     }
 
     // elimina grupos
@@ -710,10 +712,10 @@ function rmGroup(groupId) {
 
     // elimina de asignatura
     const subject = cache.get(g.subjectId)
-    U.rmWhere(subject.getGroups, o => o.id == groupId);
+    U.rmWhere(subject.groups, o => o.id == groupId);
 
     // elimina de grupos
-    const removals = U.rmWhere(state.groups, o => o == groupId);
+    const removals = U.rmWhere(state.groups, o => o.id == groupId);
     if (removals != 1) {
         throw Error(`Expected 1 removal, but did ${removals}`)
     }

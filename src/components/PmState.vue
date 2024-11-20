@@ -157,7 +157,7 @@ import UserModal from './UserModal.vue';
 import SubjectModal from './SubjectModal.vue';
 import GroupModal from './GroupModal.vue';
 
-import { ref, onMounted, nextTick } from 'vue';
+import { ref, computed, onMounted, nextTick } from 'vue';
 import { gState, semesterNames } from '../state.js';
 import * as bootstrap from 'bootstrap'
 import * as U from '../util.js'
@@ -280,16 +280,16 @@ const addLocationCols = (ss) => {
   return rv;
 }
 
-const users = props.state.getUsers()
-const subjects = props.state.getSubjects()
-const groups = addGroupCols(props.state.getGroups())
-const locations = addLocationCols(props.state.getSlots())
+const users = computed(() => props.state.getUsers())
+const subjects = computed(() => props.state.getSubjects())
+const groups = computed(() => addGroupCols(props.state.getGroups()))
+const locations = computed(() => addLocationCols(props.state.getSlots()))
 
 const selected = ref({ id: -1 })
 
 const selectOne = (type, id) => {
   const element = (typeof id == 'string') ?
-    locations.find(o => o.id == id) :
+    locations.value.find(o => o.id == id) :
     gState.resolve(id)
   console.log(`selected ${type} ${id}`, element)
   selected.value = element
@@ -346,10 +346,10 @@ async function editSubject(id) {
 }
 
 function rmSubject(id) {
-  gState.model.rmSubject(id)
   if (selected.value.id == id) {
     selected.value = { id: -1 };
-  }
+  }  
+  gState.model.rmSubject(id)
   gState.key++
 }
 
