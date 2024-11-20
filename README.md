@@ -18,19 +18,19 @@ Este año implementamos una interfaz de gestión (simulada) de asignación docen
     ~~~{.ps}
     cd \hlocal
     git clone https://github.com/manuel-freire/iu2425
-    cd iu2425\vmanager
+    cd iu2425
     ~~~
 
     + en otros sitios puedes variar la carpeta de destino (`hlocal` seguramente no exista), y si ya habías descargado el proyecto antes, mejor usar lo que ya tenías. 
 
-* Lanza el proyecto (desde dentro de la carpeta `plandoc`)
+* Lanza el proyecto (desde dentro de la carpeta `iu2425`)
 
     ~~~
     npm install
     npm run serve
     ~~~
 
-    **Importante: `plandoc/node_modules`** ocupa mucho, y se regenera cada vez que ejecutas `npm install`, y por tanto **nunca** se debe meter en repositorios.
+    **Importante: `iu2425/node_modules`** ocupa mucho, y se regenera cada vez que ejecutas `npm install`, y por tanto **nunca** se debe meter en repositorios.
 
 * Abre un navegador para ver tu página, y un editor para modificarla:
 
@@ -39,7 +39,7 @@ Este año implementamos una interfaz de gestión (simulada) de asignación docen
     code .
     ~~~
 
-    (puede ser más fácil lanzarlos desde fuera de una consola; el `.` abre la carpeta actual, por lo que deberías estar dentro de `plandoc` al ejecutar `code .` )
+    (puede ser más fácil lanzarlos desde fuera de una consola; el `.` abre la carpeta actual, por lo que deberías estar dentro de `iu2425` al ejecutar `code .` )
 
 * Instala la extensión de VS Code para Vue.js. Para ello, navega a cualquier archivo con extensión `.vue` (por ejemplo, `src/App.vue`), y te aparecerá una ventanita que te ofrece instalar `Vue-Official (v2.1.10)` ó superior.
 
