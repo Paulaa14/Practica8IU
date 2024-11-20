@@ -22,7 +22,7 @@
     </table>
 
     <SortableGrid :data="addSlotCols(slots)" :columns="slotColumns" 
-      :filter="{ all: '', fields: [] }" v-model="sorter" />
+      :filter="{ all: '', fields: [] }" v-model:sorter="sorter" />
     <TimeTable :slots="slots" />
 
     <h5>Acciones</h5>
