@@ -32,7 +32,8 @@
             <label :for="`${id}_${col.key}`" class="col-form-label">{{ col.display }}</label>
           </div>
           <div class="col-auto">
-            <input type="text" v-model="filter.fields[col.key]" :id="`${id}_${col.key}`" class="form-control">
+            <input type="text" v-model="filter.fields[col.key]" :id="`${id}_${col.key}`" 
+              @input="updateValue(col.key)" class="form-control">
           </div>
         </div>
       </div>
@@ -58,12 +59,19 @@ const advSearch = ref(filter.value.fields.length > 0)
 
 const id = useId()
 
+function updateValue(key) {
+  const prev = {... filter.value.fields};
+  prev[key] = document.getElementById(`${id}_${key}`).value
+  filter.value = {all: '', fields: prev}
+}
+
 // vacía la parte del filtro que no esté seleccionada
 function toggleAdvanced() {
   advSearch.value = !advSearch.value
-  filter.value = {
-    all: advSearch.value ? '' : filter.value.all,
-    fields: advSearch.value ? filter.value.fields : {}
+  if (advSearch.value) {
+    filter.value.all = ''
+  } else {
+    filter.value.fields = {}
   }
 }
 
