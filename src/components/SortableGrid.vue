@@ -51,7 +51,7 @@
 <p v-else>(no hay nada que mostrar)</p>
 
 <!--@click="" igual hay que poner cosas aqui-->
-<button type = "button" data-bs-toggle = "button" class = "imput-group-text btn btn-outline-secondary b-limpiar-orden">
+<button type = "button" data-bs-toggle = "button" class = "input-group-text btn btn-outline-secondary b-limpiar-orden">
 <!--Copiar el boton de otro sitio, lo cambias pa q se vea bonito, cambias lo q hace -->
   
 </button>

@@ -51,6 +51,7 @@ const props = defineProps({
 const confirmDelete = () => {
   if (confirm(`¿Estás seguro de que quieres borrar la asignatura ${props.subject.name}?`)) {
     emit('rmSubject')
+    alert('Asignatura borrada con exito')
   }
 }
 

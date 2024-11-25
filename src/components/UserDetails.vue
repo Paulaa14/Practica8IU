@@ -101,6 +101,7 @@ const formatNiceGroup = groupId => {
 const confirmDelete = () => {
     if (confirm(`¿Estás seguro de que quieres borrar el usuario ${props.user.firstName} ${props.user.lastName}?`)) {
         emit('rmUser')
+        alert('Usuario borrado con exito')
     }
 }
 
