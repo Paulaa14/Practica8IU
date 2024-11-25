@@ -28,7 +28,7 @@
     <h5>Acciones</h5>
     <div class="btn-group">
         <button @click="$emit('editUser')" class="btn btn-outline-success">✏️</button>
-        <button @click="$emit('rmUser')" class="btn btn-outline-danger">🗑️</button>
+        <button @click="confirmDelete()" class="btn btn-outline-danger">🗑️</button>
     </div>
 </template>
 
@@ -39,7 +39,7 @@ import TimeTable from './TimeTable.vue';
 import { gState, semesterNames, weekDayNames } from '../state.js';
 import { ref, computed } from 'vue'
 
-defineEmits([
+const emit = defineEmits([
   'filterUser',
   'editUser',
   'rmUser',
@@ -96,6 +96,12 @@ const formatNiceGroup = groupId => {
     const group = gState.resolve(groupId);
     const subject = gState.resolve(group.subjectId);
     return `${subject.short}:${group.name}`
+}
+
+const confirmDelete = () => {
+    if (confirm(`¿Estás seguro de que quieres borrar el usuario ${props.user.firstName} ${props.user.lastName}?`)) {
+        emit('rmUser')
+    }
 }
 
 </script>
