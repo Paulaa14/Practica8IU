@@ -9,46 +9,50 @@
     <thead>
       <tr>        
         <th v-for="col in columns" :key="col.key"
-          @click="sortBy(col.key)"
-          :class="sorter.length && sorter.slice(-1)[0].key == col.key ? 'ghead active' : 'ghead'">
-          <span v-if="sorter.find(o => o.key==col.key && o.order==1)" class="arrow asc"></span>
-          <span v-if="sorter.find(o => o.key==col.key && o.order==-1)" class="arrow dsc"></span>
-          {{ col.display }}
-        </th>
-      </tr>
-    </thead>
+        @click="sortBy(col.key)"
+        :class="sorter.length && sorter.slice(-1)[0].key == col.key ? 'ghead active' : 'ghead'">
+        <span v-if="sorter.find(o => o.key==col.key && o.order==1)" class="arrow asc"></span>
+        <span v-if="sorter.find(o => o.key==col.key && o.order==-1)" class="arrow dsc"></span>
+        {{ col.display }}
+      </th>
+    </tr>
+  </thead>
     <tbody>
       <tr v-for="entry in filteredData" :key="entry.id" 
-        @click="$emit('selectOne', entry.id)">
-
-        <td v-for="(col, index) in columns" :key="`${entry.id}_${col.key}`"
-          class="text-start">
-          <template v-if="col.type == 'Enum'">
-            {{ col.displayValues[entry[col.key]] }}
-          </template>
-          <template v-else-if="col.type == 'ObjectIds'">
-            <span v-for="o in entry[col.key].map(v => gState.resolve(v))" :key="o.id"
-              class="small"
-              :data-bs-toggle="col.title ? 'tooltip' : null" 
-              :data-bs-html="col.title ? true : null"
-              :data-bs-title="col.title ? col.title(entry, col.key, o) : null">
-              {{ o.name }}
-            </span>
-          </template>
-          <template v-else>
-            <span 
-              :class="index == 0 ? 'name' : null"
-              :data-bs-toggle="col.title ? 'tooltip' : null" 
-              :data-bs-html="col.title ? true : null"
-              :data-bs-title="col.title ? col.title(entry, col.key) : null">
-              {{ entry[col.key] }}
-            </span>
-          </template>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-  <p v-else>(no hay nada que mostrar)</p>
+      @click="$emit('selectOne', entry.id)">
+      
+      <td v-for="(col, index) in columns" :key="`${entry.id}_${col.key}`"
+      class="text-start">
+      <template v-if="col.type == 'Enum'">
+        {{ col.displayValues[entry[col.key]] }}
+      </template>
+      <template v-else-if="col.type == 'ObjectIds'">
+        <span v-for="o in entry[col.key].map(v => gState.resolve(v))" :key="o.id"
+          class="small"
+          :data-bs-toggle="col.title ? 'tooltip' : null" 
+          :data-bs-html="col.title ? true : null"
+          :data-bs-title="col.title ? col.title(entry, col.key, o) : null">
+          {{ o.name }}
+        </span>
+      </template>
+      <template v-else>
+        <span 
+        :class="index == 0 ? 'name' : null"
+        :data-bs-toggle="col.title ? 'tooltip' : null" 
+        :data-bs-html="col.title ? true : null"
+        :data-bs-title="col.title ? col.title(entry, col.key) : null">
+        {{ entry[col.key] }}
+      </span>
+    </template>
+  </td>
+</tr>
+</tbody>
+</table>
+<p v-else>(no hay nada que mostrar)</p>
+<button type = "button" data-bs-toggle = "button" class = "imput-group-text btn btn-outline-secondary b-limpiar-orden" @click="">
+<!--Copiar el boton de otro sitio, lo cambias pa q se vea bonito, cambias lo q hace -->
+  
+</button>
 </template>
 
 <script setup>
@@ -172,4 +176,8 @@ thead>tr {
   border-bottom: 1px solid gray;
   color: rgb(104, 103, 103);
 }
+
+/* .b-limpiar-orden{
+  top:;
+} */
 </style>

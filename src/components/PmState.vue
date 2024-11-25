@@ -402,7 +402,7 @@ function rmGroup(id) {
   font-weight: bold;
 }
 
-@media(min-width: 995px) {
+@media(min-width: 995px) {/*sirve para poner un ancho minimo*/
   .boxed {
     position: relative;
     bottom: -10px;
