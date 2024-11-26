@@ -3,22 +3,27 @@
     El filtro tiene dos modos: normal y por campos, y es posible cambiar entre estos modos.
     - modo normal deja fields: a {}
     - modo avanzado deja all: a ''
+
+    Si no estás en modo avanzado, el modelo es filter.all con el que buscas por 1 unico campo. Sino es filter.fields y desactiva la entrada de texto,
+    no te deja escribir.
+
+    El title es el texto alternativo del botón
 -->
 <template>
   <div class="row">
     <div class="col-auto w-75">
       <div class="input-group">
-        <input v-if="!advSearch" v-model="filter.all" type="search"
+        <input v-if="!advSearch" v-model="filter.all" type="search" 
           class="form-control" placeholder="Filtrar">
         <input v-else value="(filtrando por campos)" disabled="disabled" type="search" class="form-control"
           placeholder="Filtrar">
         <span class="input-group-text btn-outline-secondary">🔍</span>
         <button type="button" data-bs-toggle="button" class="input-group-text btn btn-outline-secondary b-avanzada"
-          @click="toggleAdvanced()" title="Búsqueda avanzada">⚙️</button>
+          @click="toggleAdvanced()" title="Búsqueda avanzada">⚙️</button> <!-- Al pulsar el botón cambia el modo con el toggleAdvanced-->
       </div>
     </div>
-    <div class="col-auto">
-
+    <div class="col-auto"> <!-- BOTÓN DE LIMPIAR FILTROS -->
+      <button type="button" data-bs-toggle="button" class="btn btn-outline-secondary" @click="clearFilters()" title="Limpiar filtros">🧹</button>
     </div>
     <div v-if="addBtnTitle" class="col-auto">
       <button type="button" :title="addBtnTitle" @click="$emit('addElement')" class="btn btn-outline-primary">➕</button>
@@ -73,6 +78,10 @@ function toggleAdvanced() {
   } else {
     filter.value.fields = {}
   }
+}
+
+function clearFilters() {
+  filter.value = {all: '', fields: {}};
 }
 
 </script>
