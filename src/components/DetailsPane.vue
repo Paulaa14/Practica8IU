@@ -1,9 +1,4 @@
 <template>
-  <div class="details-container">
-    <button class="mobile-nav-button" @click="handleGoBack">
-      Volver al listado
-    </button>  /*boton volver a arriba*/
-  </div>
   <div v-if="!element || element.id == -1" class="empty">
     (selecciona una fila para ver sus detalles)
   </div>
@@ -25,12 +20,13 @@
 </template>
 
 <script setup>
+
 import LocationDetails from './LocationDetails.vue';
 import UserDetails from './UserDetails.vue';
 import SubjectDetails from './SubjectDetails.vue';
 import GroupDetails from './GroupDetails.vue';
 
-const emit = defineEmits([
+defineEmits([
   'editUser',
   'rmUser',
   'editSubject',
@@ -38,69 +34,54 @@ const emit = defineEmits([
   'editGroup',
   'rmGroup',
   'goBack'
-])
+]);
 
 defineProps({
   element: Object // a User, Subject, Group, Slot or Location; use {id: -1} for "nothing"
-})
-
-const handleGoBack = () => {/*boton volver a arriba*/
-  if (typeof window.scrollTo === 'function') {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  }
-  emit('goBack');
-};
+});
 
 </script>
 
 <style scoped>
-.mobile-nav-button{/*boton volver a arriba*/
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
-  z-index: 1000;
-  padding: 10px 20px;
-  background-color: #007bff;
-  color:white;
-  border: none;
-  border-radius: 5px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  font-size: 14px;
-  cursor: pointer;
-}
 
-.mobile-nav-button:hover{/*boton volver a arriba*/
-  background-color: #0056b3;
-}
-
-.details-container{/*boton volver a arriba*/
-  padding:1em;
-  font-size: 16px;
-}
-
-tr>th {
+tr > th {
   width: 10em;
   text-align: right;
 }
 
-.empty {/*Tamaño pantalla, q se ajuste a un móvil*/
+
+/* Estilo de la sección vacía */
+.empty {
   margin: 2em;
   text-align: center;
   font-size: 1rem;
+  padding: 15px;
+  line-height: 1.5;
 }
 
-@media (max-width: 600px){/*Tamaño pantalla, q se ajuste a un móvil*/
-  .details-container{
+/* Media query para pantallas móviles */
+@media (max-width: 600px) {
+  .details-container {
     font-size: 14px;
+    padding: 0.8em;
   }
 
-  .empty{
+  .empty {
     font-size: 0.9rem;
-    padding: 20px;
+    padding: 15px;
+    margin: 1.5em;
   }
 
-  h5{
-    font-size: 1.1rem;
+  h5 {
+    font-size: 1.2rem;
+  }
+
+  tr > th {
+    width: auto; /* Asegura que las celdas de las tablas se ajusten al contenido */
+  }
+
+  td, th {
+    font-size: 14px; /* Asegura que las celdas de las tablas tengan una fuente más pequeña */
   }
 }
 
