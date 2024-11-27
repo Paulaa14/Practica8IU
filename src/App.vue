@@ -1,4 +1,5 @@
 <template>
+  <!--hola-->
   <PmState 
     :state="gState.model" 
     :key="gState.key" />
