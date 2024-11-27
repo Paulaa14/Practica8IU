@@ -27,8 +27,8 @@
 
     <h5>Acciones</h5>
     <div class="btn-group">
-        <button @click="$emit('editUser')" class="btn btn-outline-success">✏️</button>
-        <button @click="$emit('rmUser')" class="btn btn-outline-danger">🗑️</button>
+        <button @click="$emit('editUser')" class="btn btn-outline-success" title = "Editar usuario">✏️</button>
+        <button @click="$emit('rmUser')" class="btn btn-outline-danger" title = "Eliminar usuario">🗑️</button>
     </div>
 </template>
 
