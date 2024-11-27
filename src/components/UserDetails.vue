@@ -14,7 +14,14 @@
             <tr>
                 <th>Grupos a los que da clase</th>
                 <td v-if="user.groups.length">
-                    {{ user.groups.map(g => formatNiceGroup(g)).join(' ') }}
+                    <span 
+                        v-for="group in uniqueGroups" 
+                        :key="group.groupId" 
+                        class="badge bg-primary me-1"
+                        :title="formatGroupTooltip(group)"
+                        data-bs-toggle="tooltip">
+                        {{ group.name }}
+                    </span>
                 </td>
                 <td v-else> (ninguno) </td>
             </tr>
@@ -27,8 +34,8 @@
 
     <h5>Acciones</h5>
     <div class="btn-group">
-        <button @click="$emit('editUser')" class="btn btn-outline-success" title = "Editar usuario">✏️</button>
-        <button @click="$emit('rmUser')" class="btn btn-outline-danger" title = "Eliminar usuario">🗑️</button>
+        <button @click="$emit('editUser')" class="btn btn-outline-success" title="Editar usuario">✏️</button>
+        <button @click="$emit('rmUser')" class="btn btn-outline-danger" title="Eliminar usuario">🗑️</button>
     </div>
 </template>
 
@@ -49,7 +56,7 @@ const props = defineProps({
     user: Object // see definition of User in ../model.js
 })
 
-let sorter = ref([{key: "weekDay", order: 1}])
+let sorter = ref([{ key: "weekDay", order: 1 }])
 
 const slots = computed(() => slotsOfAllGroups(props.user.groups))
 
@@ -89,7 +96,29 @@ const addSlotCols = (ss) => {
     return ss;
 }
 
-// 1450 => "14:50"
+// Extraemos grupos únicos y sus detalles para mostrar en la tabla
+const uniqueGroups = computed(() => {
+    const groups = props.user.groups.map(gState.resolve);
+    const unique = new Map();
+    for (const group of groups) {
+        if (!unique.has(group.id)) {
+            unique.set(group.id, {
+                ...group,
+                subject: gState.resolve(group.subjectId),
+            });
+        }
+    }
+    return Array.from(unique.values());
+});
+
+// Tooltip para mostrar información adicional
+const formatGroupTooltip = (group) => {
+    const subject = group.subject.short;
+    const degree = group.subject.degreeName;
+    return `${subject} (${degree})`;
+}
+
+// Funciones auxiliares
 const formatTime = t => `${Math.floor(t / 100)}:` + `0${t % 100}`.slice(-2)
 
 const formatNiceGroup = groupId => {
@@ -97,5 +126,4 @@ const formatNiceGroup = groupId => {
     const subject = gState.resolve(group.subjectId);
     return `${subject.short}:${group.name}`
 }
-
 </script>
