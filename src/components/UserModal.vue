@@ -10,9 +10,9 @@
             <TextBox :start="user.lastName" id="e-lastName" label="Apellidos" />
             <TextBox :start="''+user.maxCredits" id="e-maxCredits" label="Créditos totales" />
             <br>
-            <TextBox :start="user.userName" id="e-userName" label="Login" 
+            <TextBox :start="user.userName" id="e-userName" label="Usuario" 
                 @change="(v) => name=v"/>
-            <TextBox :start="user.token" id="e-userToken" label="Password" />
+            <TextBox :start="user.token" id="e-userToken" label="Contraseña" />
             <br>
             <MemberBox :start="user.groups" :all="prettyGroups()" id="e-groups" label="grupos" />
           </div>

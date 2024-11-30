@@ -16,7 +16,7 @@
     },
     {
       "id": 638,
-      "userRole": "teacher",
+      "userRole": "Profesor",
       "userName": "rmortiz",
       "token": "WFt05lcDydAPdIiI",
       "firstName": "Rosa Maria",
@@ -34,7 +34,7 @@
     },
     {
       "id": 639,
-      "userRole": "teacher",
+      "userRole": "Profesor",
       "userName": "marias",
       "token": "iNDPYqU70X5Yf2dI",
       "firstName": "Mercedes",
@@ -46,7 +46,7 @@
     },
     {
       "id": 640,
-      "userRole": "teacher",
+      "userRole": "Profesor",
       "userName": "jmendez",
       "token": "WLzKLLvDNFULA0rC",
       "firstName": "Jorge",
@@ -58,7 +58,7 @@
     },
     {
       "id": 641,
-      "userRole": "teacher",
+      "userRole": "Profesor",
       "userName": "mvargas",
       "token": "uXvz4V0u8RnO9wUO",
       "firstName": "Marina",
@@ -70,7 +70,7 @@
     },
     {
       "id": 642,
-      "userRole": "teacher",
+      "userRole": "Profesor",
       "userName": "isaez",
       "token": "AgGKGM4wNqe60cwv",
       "firstName": "Irene",
@@ -82,7 +82,7 @@
     },
     {
       "id": 643,
-      "userRole": "teacher",
+      "userRole": "Profesor",
       "userName": "eruiz",
       "token": "MIr2zqrQnFZByBXV",
       "firstName": "Enrique",
@@ -94,7 +94,7 @@
     },
     {
       "id": 644,
-      "userRole": "teacher",
+      "userRole": "Profesor",
       "userName": "plozano",
       "token": "s0HbCOfyjBfF0GeO",
       "firstName": "Patricia",
@@ -106,7 +106,7 @@
     },
     {
       "id": 645,
-      "userRole": "teacher",
+      "userRole": "Profesor",
       "userName": "adiez",
       "token": "Us6DpQLllgQuuDOU",
       "firstName": "Alberto",
@@ -118,7 +118,7 @@
     },
     {
       "id": 646,
-      "userRole": "teacher",
+      "userRole": "Profesor",
       "userName": "amvega",
       "token": "pY3Bqa28YUwItACR",
       "firstName": "Ana Maria",
@@ -135,7 +135,7 @@
     },
     {
       "id": 647,
-      "userRole": "teacher",
+      "userRole": "Profesor",
       "userName": "pcastro",
       "token": "042kkmcvRHJ9eroM",
       "firstName": "Pedro",
@@ -147,7 +147,7 @@
     },
     {
       "id": 648,
-      "userRole": "teacher",
+      "userRole": "Profesor",
       "userName": "idiez",
       "token": "2Wx0nkYjEh08CwVu",
       "firstName": "Isabel",
@@ -166,7 +166,7 @@
     },
     {
       "id": 649,
-      "userRole": "teacher",
+      "userRole": "Profesor",
       "userName": "cromero",
       "token": "nNgC7DOpi0appg8i",
       "firstName": "Carlos",
@@ -178,7 +178,7 @@
     },
     {
       "id": 650,
-      "userRole": "teacher",
+      "userRole": "Profesor",
       "userName": "ajimenez",
       "token": "OkbPGusW1Cej2X8N",
       "firstName": "Angel",
@@ -190,7 +190,7 @@
     },
     {
       "id": 651,
-      "userRole": "teacher",
+      "userRole": "Profesor",
       "userName": "mtcruz",
       "token": "oYHNiDJy2z86YnN1",
       "firstName": "Maria Teresa",
@@ -209,7 +209,7 @@
     },
     {
       "id": 652,
-      "userRole": "teacher",
+      "userRole": "Profesor",
       "userName": "adelgado",
       "token": "BmtkutqdIfvZOa7t",
       "firstName": "Alvaro",
@@ -221,7 +221,7 @@
     },
     {
       "id": 653,
-      "userRole": "teacher",
+      "userRole": "Profesor",
       "userName": "jlopez",
       "token": "JCiyrSulReXYUVWn",
       "firstName": "Juana",
@@ -233,7 +233,7 @@
     },
     {
       "id": 654,
-      "userRole": "teacher",
+      "userRole": "Profesor",
       "userName": "chernandez",
       "token": "rjAY8VgXCngO7CTZ",
       "firstName": "Cristina",
@@ -245,7 +245,7 @@
     },
     {
       "id": 655,
-      "userRole": "teacher",
+      "userRole": "Profesor",
       "userName": "fjmora",
       "token": "Sp4FCKwa90v6nha0",
       "firstName": "Francisco Javier",
@@ -262,7 +262,7 @@
     },
     {
       "id": 656,
-      "userRole": "teacher",
+      "userRole": "Profesor",
       "userName": "rreyes",
       "token": "JkQFeh3clDBrgJJY",
       "firstName": "Ruben",
@@ -279,7 +279,7 @@
     },
     {
       "id": 657,
-      "userRole": "teacher",
+      "userRole": "Profesor",
       "userName": "sblanco",
       "token": "9Y6HSZj2uyKDo0H0",
       "firstName": "Santiago",
@@ -296,7 +296,7 @@
     },
     {
       "id": 658,
-      "userRole": "teacher",
+      "userRole": "Profesor",
       "userName": "eramirez",
       "token": "70JEVBOzKfv6qNXr",
       "firstName": "Enrique",
@@ -308,7 +308,7 @@
     },
     {
       "id": 659,
-      "userRole": "teacher",
+      "userRole": "Profesor",
       "userName": "jherrera",
       "token": "O5TQlvyckH0DdUM8",
       "firstName": "Jesus",
@@ -320,7 +320,7 @@
     },
     {
       "id": 660,
-      "userRole": "teacher",
+      "userRole": "Profesor",
       "userName": "mtmartin",
       "token": "4xr7ZDuD5nZUzmUL",
       "firstName": "Maria Teresa",
@@ -332,7 +332,7 @@
     },
     {
       "id": 661,
-      "userRole": "teacher",
+      "userRole": "Profesor",
       "userName": "laguilar",
       "token": "DiTxcY2ou9PzjixA",
       "firstName": "Laura",
@@ -344,7 +344,7 @@
     },
     {
       "id": 662,
-      "userRole": "teacher",
+      "userRole": "Profesor",
       "userName": "dcampos",
       "token": "4xOKppYCjGQSgxKS",
       "firstName": "Dolores",
@@ -356,7 +356,7 @@
     },
     {
       "id": 663,
-      "userRole": "teacher",
+      "userRole": "Profesor",
       "userName": "jmpeña",
       "token": "XDUkslYw2sj3a6vA",
       "firstName": "Jose Manuel",
@@ -368,7 +368,7 @@
     },
     {
       "id": 664,
-      "userRole": "teacher",
+      "userRole": "Profesor",
       "userName": "mmendez",
       "token": "NkxztlCq2yTqxtih",
       "firstName": "Monica",
@@ -385,7 +385,7 @@
     },
     {
       "id": 665,
-      "userRole": "teacher",
+      "userRole": "Profesor",
       "userName": "afuentes",
       "token": "I3yyhtfQKGeZ75vX",
       "firstName": "Andres",
@@ -406,7 +406,7 @@
     },
     {
       "id": 666,
-      "userRole": "teacher",
+      "userRole": "Profesor",
       "userName": "dramos",
       "token": "xy9Q6TBfW0gMeBC1",
       "firstName": "Diego",
@@ -418,7 +418,7 @@
     },
     {
       "id": 667,
-      "userRole": "teacher",
+      "userRole": "Profesor",
       "userName": "rrodriguez",
       "token": "JKOUuvZvA9nca1wG",
       "firstName": "Ramon",
@@ -430,7 +430,7 @@
     },
     {
       "id": 668,
-      "userRole": "teacher",
+      "userRole": "Profesor",
       "userName": "jfuentes",
       "token": "LMZ9FvmjZgsOpEu8",
       "firstName": "Josefa",
@@ -442,7 +442,7 @@
     },
     {
       "id": 669,
-      "userRole": "teacher",
+      "userRole": "Profesor",
       "userName": "janieto",
       "token": "Ja8ngt0eX5Ls92op",
       "firstName": "Jose Antonio",
@@ -454,7 +454,7 @@
     },
     {
       "id": 670,
-      "userRole": "teacher",
+      "userRole": "Profesor",
       "userName": "mdrivera",
       "token": "Ail0m1mFWvGyQu7m",
       "firstName": "Maria Dolores",
@@ -471,7 +471,7 @@
     },
     {
       "id": 671,
-      "userRole": "teacher",
+      "userRole": "Profesor",
       "userName": "maleon",
       "token": "8EXq1LVdDM9c0ahE",
       "firstName": "Maria Angeles",
@@ -483,7 +483,7 @@
     },
     {
       "id": 672,
-      "userRole": "teacher",
+      "userRole": "Profesor",
       "userName": "jareyes",
       "token": "Cv9r9Gj1vnECtgr6",
       "firstName": "Juan Antonio",
@@ -503,7 +503,7 @@
     },
     {
       "id": 673,
-      "userRole": "teacher",
+      "userRole": "Profesor",
       "userName": "aalvarez",
       "token": "izJ08w0P730Rd1KK",
       "firstName": "Alejandro",
@@ -515,7 +515,7 @@
     },
     {
       "id": 674,
-      "userRole": "teacher",
+      "userRole": "Profesor",
       "userName": "arivera",
       "token": "qQQ7eWPHTj8bUr7s",
       "firstName": "Alba",
@@ -530,7 +530,7 @@
     },
     {
       "id": 675,
-      "userRole": "teacher",
+      "userRole": "Profesor",
       "userName": "jruiz",
       "token": "ZxpixeC252BclwEl",
       "firstName": "Juana",
@@ -547,7 +547,7 @@
     },
     {
       "id": 676,
-      "userRole": "teacher",
+      "userRole": "Profesor",
       "userName": "ammontero",
       "token": "r9Kqi6qvr6QAVZ0V",
       "firstName": "Ana Maria",
@@ -559,7 +559,7 @@
     },
     {
       "id": 677,
-      "userRole": "teacher",
+      "userRole": "Profesor",
       "userName": "jdelgado",
       "token": "RxI70SRoOJ6wWhCg",
       "firstName": "Javier",
@@ -580,7 +580,7 @@
     },
     {
       "id": 678,
-      "userRole": "teacher",
+      "userRole": "Profesor",
       "userName": "psanchez",
       "token": "0NNMCC0zWn1fOHFp",
       "firstName": "Pedro",
@@ -592,7 +592,7 @@
     },
     {
       "id": 679,
-      "userRole": "teacher",
+      "userRole": "Profesor",
       "userName": "fgallego",
       "token": "1wjMfyrxh2WddpeF",
       "firstName": "Francisca",
@@ -609,7 +609,7 @@
     },
     {
       "id": 680,
-      "userRole": "teacher",
+      "userRole": "Profesor",
       "userName": "jhernandez",
       "token": "Y2It8wExRFutiL1p",
       "firstName": "Jose",
@@ -626,7 +626,7 @@
     },
     {
       "id": 681,
-      "userRole": "teacher",
+      "userRole": "Profesor",
       "userName": "rrubio",
       "token": "Xic6lyOgP0eXYykW",
       "firstName": "Rafael",
@@ -645,7 +645,7 @@
     },
     {
       "id": 682,
-      "userRole": "teacher",
+      "userRole": "Profesor",
       "userName": "mramos",
       "token": "R5as0PWgXWGDD3Kp",
       "firstName": "Marcos",
@@ -665,7 +665,7 @@
     },
     {
       "id": 683,
-      "userRole": "teacher",
+      "userRole": "Profesor",
       "userName": "jsuarez",
       "token": "eLozE6oNoKyQwDXh",
       "firstName": "Julia",
@@ -677,7 +677,7 @@
     },
     {
       "id": 684,
-      "userRole": "teacher",
+      "userRole": "Profesor",
       "userName": "rsoto",
       "token": "ZsMSqdmwiS1bCsUQ",
       "firstName": "Rafael",
@@ -693,7 +693,7 @@
     },
     {
       "id": 685,
-      "userRole": "teacher",
+      "userRole": "Profesor",
       "userName": "midiez",
       "token": "oHptTvoNitRxtmHr",
       "firstName": "Maria Isabel",
@@ -705,7 +705,7 @@
     },
     {
       "id": 686,
-      "userRole": "teacher",
+      "userRole": "Profesor",
       "userName": "afuentes1",
       "token": "w3vkWRUJ8jZUqaLv",
       "firstName": "Andres",
@@ -717,7 +717,7 @@
     },
     {
       "id": 687,
-      "userRole": "teacher",
+      "userRole": "Profesor",
       "userName": "mprieto",
       "token": "6qnn1XKM4axKcdhI",
       "firstName": "Mercedes",
@@ -734,7 +734,7 @@
     },
     {
       "id": 688,
-      "userRole": "teacher",
+      "userRole": "Profesor",
       "userName": "calvarez",
       "token": "t90UW8DR5sW4Q52r",
       "firstName": "Cristina",
@@ -759,7 +759,7 @@
       "short": "FP1",
       "degree": "DGADE",
       "credits": 6,
-      "semester": "FALL",
+      "semester": "Otoño",
       "codes": "901972",
       "groups": [
         1,
@@ -774,7 +774,7 @@
       "short": "FP2",
       "degree": "DGADE",
       "credits": 6,
-      "semester": "SPRING",
+      "semester": "Primavera",
       "codes": "901973",
       "groups": [
         9,
@@ -789,7 +789,7 @@
       "short": "DV",
       "degree": "GDV",
       "credits": 6,
-      "semester": "FALL",
+      "semester": "Otoño",
       "codes": "805308",
       "groups": [
         17,
@@ -804,7 +804,7 @@
       "short": "MÁP",
       "degree": "GDV",
       "credits": 6,
-      "semester": "SPRING",
+      "semester": "Primavera",
       "codes": "805306",
       "groups": [
         25,
@@ -819,7 +819,7 @@
       "short": "MV",
       "degree": "GDV",
       "credits": 6,
-      "semester": "FALL",
+      "semester": "Otoño",
       "codes": "805309",
       "groups": [
         34,
@@ -834,7 +834,7 @@
       "short": "P1",
       "degree": "GDV",
       "credits": 6,
-      "semester": "SPRING",
+      "semester": "Primavera",
       "codes": "805323",
       "groups": [
         42,
@@ -848,7 +848,7 @@
       "short": "FP1",
       "degree": "GIDIA",
       "credits": 6,
-      "semester": "FALL",
+      "semester": "Otoño",
       "codes": "806398",
       "groups": [
         53,
@@ -862,7 +862,7 @@
       "short": "FP2",
       "degree": "GIDIA",
       "credits": 6,
-      "semester": "SPRING",
+      "semester": "Primavera",
       "codes": "806399",
       "groups": [
         60,
@@ -876,7 +876,7 @@
       "short": "FP1",
       "degree": "GII (Inglés)",
       "credits": 9,
-      "semester": "FALL",
+      "semester": "Otoño",
       "codes": "805340,805461,805475",
       "groups": [
         67,
@@ -893,7 +893,7 @@
       "short": "FP2",
       "degree": "GII (Inglés)",
       "credits": 9,
-      "semester": "SPRING",
+      "semester": "Primavera",
       "codes": "805341,805462,805476",
       "groups": [
         74,
@@ -909,7 +909,7 @@
       "short": "FP2",
       "degree": "GII-GIS-GIC",
       "credits": 3,
-      "semester": "SPRING",
+      "semester": "Primavera",
       "codes": "805341,805462,805476,901953",
       "groups": [
         89
@@ -922,7 +922,7 @@
       "short": "IS1",
       "degree": "DGMAT",
       "credits": 3,
-      "semester": "FALL",
+      "semester": "Otoño",
       "codes": "901956",
       "groups": [
         98,
@@ -936,7 +936,7 @@
       "short": "IS2",
       "degree": "DGMAT",
       "credits": 1.5,
-      "semester": "SPRING",
+      "semester": "Primavera",
       "codes": "901957",
       "groups": [
         104,
@@ -950,7 +950,7 @@
       "short": "TP1",
       "degree": "DGMAT",
       "credits": 3,
-      "semester": "FALL",
+      "semester": "Otoño",
       "codes": "901960",
       "groups": [
         110,
@@ -964,7 +964,7 @@
       "short": "TP2",
       "degree": "DGMAT",
       "credits": 3,
-      "semester": "SPRING",
+      "semester": "Primavera",
       "codes": "901961",
       "groups": [
         117,
@@ -978,7 +978,7 @@
       "short": "PVLI",
       "degree": "GDV",
       "credits": 6,
-      "semester": "FALL",
+      "semester": "Otoño",
       "codes": "805320",
       "groups": [
         124,
@@ -993,7 +993,7 @@
       "short": "P2",
       "degree": "GDV",
       "credits": 6,
-      "semester": "SPRING",
+      "semester": "Primavera",
       "codes": "805324",
       "groups": [
         132,
@@ -1007,7 +1007,7 @@
       "short": "AA1",
       "degree": "GIDIA",
       "credits": 6,
-      "semester": "SPRING",
+      "semester": "Primavera",
       "codes": "806413",
       "groups": [
         143,
@@ -1021,7 +1021,7 @@
       "short": "FIA",
       "degree": "GIDIA",
       "credits": 6,
-      "semester": "FALL",
+      "semester": "Otoño",
       "codes": "806414",
       "groups": [
         149,
@@ -1035,7 +1035,7 @@
       "short": "GPS",
       "degree": "GIDIA",
       "credits": 3,
-      "semester": "SPRING",
+      "semester": "Primavera",
       "codes": "806407",
       "groups": [
         155
@@ -1048,7 +1048,7 @@
       "short": "PD1",
       "degree": "GIDIA",
       "credits": 6,
-      "semester": "SPRING",
+      "semester": "Primavera",
       "codes": "806408",
       "groups": [
         159
@@ -1061,7 +1061,7 @@
       "short": "VD",
       "degree": "GIDIA",
       "credits": 3,
-      "semester": "SPRING",
+      "semester": "Primavera",
       "codes": "806411",
       "groups": [
         166
@@ -1074,7 +1074,7 @@
       "short": "ED",
       "degree": "GII (Inglés)",
       "credits": 4.5,
-      "semester": "SPRING",
+      "semester": "Primavera",
       "codes": "805358,901959",
       "groups": [
         170
@@ -1087,7 +1087,7 @@
       "short": "ED",
       "degree": "GII (Inglés)",
       "credits": 2.25,
-      "semester": "SPRING",
+      "semester": "Primavera",
       "codes": "805358,805480,901979",
       "groups": [
         175,
@@ -1104,7 +1104,7 @@
       "short": "FA",
       "degree": "GII (Inglés)",
       "credits": 4.5,
-      "semester": "FALL",
+      "semester": "Otoño",
       "codes": "805357,901958",
       "groups": [
         178
@@ -1117,7 +1117,7 @@
       "short": "FA",
       "degree": "GII (Inglés)",
       "credits": 2.25,
-      "semester": "FALL",
+      "semester": "Otoño",
       "codes": "805357,805479,901978",
       "groups": [
         182,
@@ -1136,7 +1136,7 @@
       "short": "IS1",
       "degree": "GII (Inglés)",
       "credits": 4.5,
-      "semester": "FALL",
+      "semester": "Otoño",
       "codes": "805346,901956",
       "groups": [
         185
@@ -1149,7 +1149,7 @@
       "short": "IS1",
       "degree": "GII (Inglés)",
       "credits": 3.75,
-      "semester": "FALL",
+      "semester": "Otoño",
       "codes": "805346,805483,901976",
       "groups": [
         189,
@@ -1167,7 +1167,7 @@
       "short": "IS2",
       "degree": "GII (Inglés)",
       "credits": 2.25,
-      "semester": "SPRING",
+      "semester": "Primavera",
       "codes": "805347,901957",
       "groups": [
         192
@@ -1180,7 +1180,7 @@
       "short": "IS2",
       "degree": "GII (Inglés)",
       "credits": 7.5,
-      "semester": "SPRING",
+      "semester": "Primavera",
       "codes": "805347,805484,901977",
       "groups": [
         196,
@@ -1199,7 +1199,7 @@
       "short": "ED",
       "degree": "GII-GIC",
       "credits": 3,
-      "semester": "SPRING",
+      "semester": "Primavera",
       "codes": "805358,805480,901959",
       "groups": [
         205,
@@ -1213,7 +1213,7 @@
       "short": "FA",
       "degree": "GII-GIC",
       "credits": 3,
-      "semester": "FALL",
+      "semester": "Otoño",
       "codes": "805357,805479,901958",
       "groups": [
         222
@@ -1226,7 +1226,7 @@
       "short": "FA",
       "degree": "GII-GIC",
       "credits": 3,
-      "semester": "FALL",
+      "semester": "Otoño",
       "codes": "805357,805479",
       "groups": [
         231,
@@ -1240,7 +1240,7 @@
       "short": "IS1",
       "degree": "GII-GIC",
       "credits": 3,
-      "semester": "FALL",
+      "semester": "Otoño",
       "codes": "805346,805483",
       "groups": [
         247,
@@ -1254,7 +1254,7 @@
       "short": "IS2",
       "degree": "GII-GIC",
       "credits": 1.5,
-      "semester": "SPRING",
+      "semester": "Primavera",
       "codes": "805347,805484",
       "groups": [
         260
@@ -1267,7 +1267,7 @@
       "short": "IS2",
       "degree": "GII-GIC",
       "credits": 1.5,
-      "semester": "SPRING",
+      "semester": "Primavera",
       "codes": "805347805484",
       "groups": [
         268
@@ -1280,7 +1280,7 @@
       "short": "TP1",
       "degree": "GII-GIC-DGADE",
       "credits": 6,
-      "semester": "FALL",
+      "semester": "Otoño",
       "codes": "805344,805481,901980",
       "groups": [
         274,
@@ -1297,7 +1297,7 @@
       "short": "TP2",
       "degree": "GII-GIC-DGADE",
       "credits": 6,
-      "semester": "SPRING",
+      "semester": "Primavera",
       "codes": "805345,805482,901981",
       "groups": [
         282,
@@ -1312,7 +1312,7 @@
       "short": "BD",
       "degree": "GII-GIC-DGADE-GDV",
       "credits": 6,
-      "semester": "FALL",
+      "semester": "Otoño",
       "codes": "803213,803273,805760,901572",
       "groups": [
         290,
@@ -1326,7 +1326,7 @@
       "short": "BD",
       "degree": "GII-GIC-DGADE-GDV",
       "credits": 3,
-      "semester": "FALL",
+      "semester": "Otoño",
       "codes": "803213,803273,805760,901572,806409",
       "groups": [
         294
@@ -1339,7 +1339,7 @@
       "short": "TP1",
       "degree": "GIDIA",
       "credits": 3,
-      "semester": "FALL",
+      "semester": "Otoño",
       "codes": "806405",
       "groups": [
         299
@@ -1352,7 +1352,7 @@
       "short": "BD",
       "degree": "GIS",
       "credits": 3,
-      "semester": "FALL",
+      "semester": "Otoño",
       "codes": "803333",
       "groups": [
         307
@@ -1365,7 +1365,7 @@
       "short": "BD",
       "degree": "GIS",
       "credits": 3,
-      "semester": "FALL",
+      "semester": "Otoño",
       "codes": "803213,901572",
       "groups": [
         312,
@@ -1379,7 +1379,7 @@
       "short": "IS1",
       "degree": "GIS",
       "credits": 4.5,
-      "semester": "FALL",
+      "semester": "Otoño",
       "codes": "805469",
       "groups": [
         317,
@@ -1393,7 +1393,7 @@
       "short": "ISI",
       "degree": "GIS",
       "credits": 1.5,
-      "semester": "FALL",
+      "semester": "Otoño",
       "codes": "805469",
       "groups": [
         323
@@ -1406,7 +1406,7 @@
       "short": "IS2",
       "degree": "GIS",
       "credits": 4.5,
-      "semester": "SPRING",
+      "semester": "Primavera",
       "codes": "805470",
       "groups": [
         326,
@@ -1421,7 +1421,7 @@
       "short": "TP2",
       "degree": "GIS",
       "credits": 3,
-      "semester": "SPRING",
+      "semester": "Primavera",
       "codes": "805345,805482,805468",
       "groups": [
         334
@@ -1434,7 +1434,7 @@
       "short": "TP2",
       "degree": "GIS",
       "credits": 3,
-      "semester": "SPRING",
+      "semester": "Primavera",
       "codes": "805345,805482,901981,805468",
       "groups": [
         338
@@ -1447,7 +1447,7 @@
       "short": "BD",
       "degree": "DGMAT",
       "credits": 3,
-      "semester": "FALL",
+      "semester": "Otoño",
       "codes": "900221",
       "groups": [
         348,
@@ -1461,7 +1461,7 @@
       "short": "IAV",
       "degree": "GDV",
       "credits": 6,
-      "semester": "SPRING",
+      "semester": "Primavera",
       "codes": "805321",
       "groups": [
         355,
@@ -1476,7 +1476,7 @@
       "short": "P3",
       "degree": "GDV",
       "credits": 6,
-      "semester": "SPRING",
+      "semester": "Primavera",
       "codes": "805325",
       "groups": [
         364,
@@ -1490,7 +1490,7 @@
       "short": "RNDL",
       "degree": "GIDIA",
       "credits": 6,
-      "semester": "FALL",
+      "semester": "Otoño",
       "codes": "806421",
       "groups": [
         377,
@@ -1504,7 +1504,7 @@
       "short": "SBC",
       "degree": "GIDIA",
       "credits": 3,
-      "semester": "FALL",
+      "semester": "Otoño",
       "codes": "806423",
       "groups": [
         384
@@ -1517,7 +1517,7 @@
       "short": "FLI",
       "degree": "GII",
       "credits": 6,
-      "semester": "SPRING",
+      "semester": "Primavera",
       "codes": "803277",
       "groups": [
         388,
@@ -1531,7 +1531,7 @@
       "short": "IA1",
       "degree": "GII",
       "credits": 4.5,
-      "semester": "FALL",
+      "semester": "Otoño",
       "codes": "805353",
       "groups": [
         397,
@@ -1546,7 +1546,7 @@
       "short": "IA2",
       "degree": "GII",
       "credits": 4.5,
-      "semester": "SPRING",
+      "semester": "Primavera",
       "codes": "805354,901965",
       "groups": [
         405,
@@ -1560,7 +1560,7 @@
       "short": "IA2",
       "degree": "GII",
       "credits": 1.5,
-      "semester": "SPRING",
+      "semester": "Primavera",
       "codes": "805354",
       "groups": [
         411
@@ -1573,7 +1573,7 @@
       "short": "SC",
       "degree": "GII-DGADE",
       "credits": 6,
-      "semester": "FALL",
+      "semester": "Otoño",
       "codes": "803282,901587",
       "groups": [
         414,
@@ -1588,7 +1588,7 @@
       "short": "AW",
       "degree": "GII-GIC",
       "credits": 6,
-      "semester": "SPRING",
+      "semester": "Primavera",
       "codes": "803285,803223",
       "groups": [
         422,
@@ -1603,7 +1603,7 @@
       "short": "SW",
       "degree": "GII-GIC",
       "credits": 6,
-      "semester": "SPRING",
+      "semester": "Primavera",
       "codes": "803285,803223",
       "groups": [
         430,
@@ -1617,7 +1617,7 @@
       "short": "AW",
       "degree": "GII-GIC-DGADE",
       "credits": 3,
-      "semester": "SPRING",
+      "semester": "Primavera",
       "codes": "803285901590,803223",
       "groups": [
         437
@@ -1630,7 +1630,7 @@
       "short": "AW",
       "degree": "GII-GIC-DGADE",
       "credits": 3,
-      "semester": "SPRING",
+      "semester": "Primavera",
       "codes": "803285,901590,803223",
       "groups": [
         441,
@@ -1644,7 +1644,7 @@
       "short": "ABD",
       "degree": "GIS",
       "credits": 6,
-      "semester": "SPRING",
+      "semester": "Primavera",
       "codes": "803335",
       "groups": [
         446,
@@ -1660,7 +1660,7 @@
       "short": "GPSMD",
       "degree": "GIS",
       "credits": 6,
-      "semester": "SPRING",
+      "semester": "Primavera",
       "codes": "803340",
       "groups": [
         456,
@@ -1675,7 +1675,7 @@
       "short": "MS",
       "degree": "GIS",
       "credits": 6,
-      "semester": "FALL",
+      "semester": "Otoño",
       "codes": "803334",
       "groups": [
         464,
@@ -1691,7 +1691,7 @@
       "short": "IA1",
       "degree": "DGMAT",
       "credits": 3,
-      "semester": "FALL",
+      "semester": "Otoño",
       "codes": "901964",
       "groups": [
         474,
@@ -1705,7 +1705,7 @@
       "short": "IA2",
       "degree": "DGMAT",
       "credits": 3,
-      "semester": "SPRING",
+      "semester": "Primavera",
       "codes": "901965",
       "groups": [
         480,
@@ -1719,7 +1719,7 @@
       "short": "AAMD",
       "degree": "GDV",
       "credits": 6,
-      "semester": "FALL",
+      "semester": "Otoño",
       "codes": "805318",
       "groups": [
         486,
@@ -1733,7 +1733,7 @@
       "short": "UAJ",
       "degree": "GDV",
       "credits": 6,
-      "semester": "SPRING",
+      "semester": "Primavera",
       "codes": "805329",
       "groups": [
         493,
@@ -1747,7 +1747,7 @@
       "short": "VC",
       "degree": "GDV",
       "credits": 6,
-      "semester": "FALL",
+      "semester": "Otoño",
       "codes": "805326",
       "groups": [
         500,
@@ -1762,7 +1762,7 @@
       "short": "VDM",
       "degree": "GDV",
       "credits": 6,
-      "semester": "FALL",
+      "semester": "Otoño",
       "codes": "805327",
       "groups": [
         508,
@@ -1777,7 +1777,7 @@
       "short": "SI",
       "degree": "GIC",
       "credits": 6,
-      "semester": "SPRING",
+      "semester": "Primavera",
       "codes": "803224,901600",
       "groups": [
         516,
@@ -1792,7 +1792,7 @@
       "short": "DSI",
       "degree": "GII",
       "credits": 6,
-      "semester": "FALL",
+      "semester": "Otoño",
       "codes": "803280,803287,900268",
       "groups": [
         524,
@@ -1812,7 +1812,7 @@
       "short": "DSI",
       "degree": "GII",
       "credits": 3,
-      "semester": "FALL",
+      "semester": "Otoño",
       "codes": "803280,803287",
       "groups": [
         532,
@@ -1826,7 +1826,7 @@
       "short": "ÉLP",
       "degree": "GII",
       "credits": 6,
-      "semester": "FALL",
+      "semester": "Otoño",
       "codes": "803206,803266,803326,900265",
       "groups": [
         540
@@ -1839,7 +1839,7 @@
       "short": "PL",
       "degree": "GII",
       "credits": 6,
-      "semester": "SPRING",
+      "semester": "Primavera",
       "codes": "803278,900235",
       "groups": [
         544,
@@ -1853,7 +1853,7 @@
       "short": "PL",
       "degree": "GII",
       "credits": 6,
-      "semester": "SPRING",
+      "semester": "Primavera",
       "codes": "803278",
       "groups": [
         550,
@@ -1868,7 +1868,7 @@
       "short": "DSI",
       "degree": "GII-DGADE",
       "credits": 3,
-      "semester": "FALL",
+      "semester": "Otoño",
       "codes": "803280,803287,901594",
       "groups": [
         563
@@ -1881,7 +1881,7 @@
       "short": "IC",
       "degree": "GIS",
       "credits": 6,
-      "semester": "SPRING",
+      "semester": "Primavera",
       "codes": "803339",
       "groups": [
         571,
@@ -1895,7 +1895,7 @@
       "short": "JS",
       "degree": "GDV",
       "credits": 6,
-      "semester": "FALL",
+      "semester": "Otoño",
       "codes": "805488",
       "groups": [
         578,
@@ -1909,7 +1909,7 @@
       "short": "ARS",
       "degree": "Grados",
       "credits": 6,
-      "semester": "FALL",
+      "semester": "Otoño",
       "codes": "803364,805490",
       "groups": [
         584,
@@ -1923,7 +1923,7 @@
       "short": "AABD",
       "degree": "Grados",
       "credits": 6,
-      "semester": "SPRING",
+      "semester": "Primavera",
       "codes": "803300,900243,901603",
       "groups": [
         590,
@@ -1937,7 +1937,7 @@
       "short": "DVMTW",
       "degree": "Grados",
       "credits": 6,
-      "semester": "SPRING",
+      "semester": "Primavera",
       "codes": "803246,900271,901602,900271",
       "groups": [
         597,
@@ -1951,7 +1951,7 @@
       "short": "ICI",
       "degree": "Grados",
       "credits": 6,
-      "semester": "FALL",
+      "semester": "Otoño",
       "codes": "805373,901933,805489",
       "groups": [
         603,
@@ -1965,7 +1965,7 @@
       "short": "IW",
       "degree": "Grados",
       "credits": 6,
-      "semester": "SPRING",
+      "semester": "Primavera",
       "codes": "803297,805621,900246",
       "groups": [
         609,
@@ -1979,7 +1979,7 @@
       "short": "IU",
       "degree": "Grados",
       "credits": 6,
-      "semester": "FALL",
+      "semester": "Otoño",
       "codes": "803352,805622",
       "groups": [
         615,
@@ -1993,7 +1993,7 @@
       "short": "PC",
       "degree": "Grados",
       "credits": 3,
-      "semester": "FALL",
+      "semester": "Otoño",
       "codes": "805371,805487,901932",
       "groups": [
         621
@@ -2006,7 +2006,7 @@
       "short": "PADM",
       "degree": "Grados",
       "credits": 6,
-      "semester": "FALL",
+      "semester": "Otoño",
       "codes": "803245,900272,901601,900272",
       "groups": [
         625,
@@ -2020,7 +2020,7 @@
       "short": "PE",
       "degree": "Grados",
       "credits": 6,
-      "semester": "SPRING",
+      "semester": "Primavera",
       "codes": "803299,805494,900247",
       "groups": [
         631,
@@ -4553,7 +4553,7 @@
       "startTime": 1300,
       "endTime": 1450,
       "location": "Aula 15",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 1,
       "key": 2
     },
@@ -4563,7 +4563,7 @@
       "startTime": 1300,
       "endTime": 1450,
       "location": "Aula 5",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 1,
       "key": 3
     },
@@ -4573,7 +4573,7 @@
       "startTime": 1300,
       "endTime": 1450,
       "location": "Lab. 3",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 4,
       "key": 726
     },
@@ -4583,7 +4583,7 @@
       "startTime": 1300,
       "endTime": 1450,
       "location": "Lab.  4",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 6,
       "key": 727
     },
@@ -4593,7 +4593,7 @@
       "startTime": 900,
       "endTime": 1050,
       "location": "Aula 14",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 9,
       "key": 10
     },
@@ -4603,7 +4603,7 @@
       "startTime": 1100,
       "endTime": 1250,
       "location": "Aula 14",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 9,
       "key": 11
     },
@@ -4613,7 +4613,7 @@
       "startTime": 1100,
       "endTime": 1250,
       "location": "Lab. 1",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 12,
       "key": 740
     },
@@ -4623,7 +4623,7 @@
       "startTime": 1100,
       "endTime": 1250,
       "location": "Lab.  11",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 14,
       "key": 741
     },
@@ -4633,7 +4633,7 @@
       "startTime": 1100,
       "endTime": 1250,
       "location": "Aula 16",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 17,
       "key": 18
     },
@@ -4643,7 +4643,7 @@
       "startTime": 1100,
       "endTime": 1250,
       "location": "Aula 16",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 17,
       "key": 19
     },
@@ -4653,7 +4653,7 @@
       "startTime": 1100,
       "endTime": 1250,
       "location": "Lab. 1",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 20,
       "key": 744
     },
@@ -4663,7 +4663,7 @@
       "startTime": 1100,
       "endTime": 1250,
       "location": "Lab.  2",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 22,
       "key": 745
     },
@@ -4673,7 +4673,7 @@
       "startTime": 1100,
       "endTime": 1250,
       "location": "Aula 13",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 25,
       "key": 26
     },
@@ -4683,7 +4683,7 @@
       "startTime": 1200,
       "endTime": 1250,
       "location": "Aula 13",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 25,
       "key": 27
     },
@@ -4693,7 +4693,7 @@
       "startTime": 1200,
       "endTime": 1250,
       "location": "Aula 13",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 25,
       "key": 28
     },
@@ -4703,7 +4703,7 @@
       "startTime": 1100,
       "endTime": 1250,
       "location": "Lab. 1",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 29,
       "key": 746
     },
@@ -4713,7 +4713,7 @@
       "startTime": 1100,
       "endTime": 1250,
       "location": "Lab.  2",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 31,
       "key": 747
     },
@@ -4723,7 +4723,7 @@
       "startTime": 1100,
       "endTime": 1250,
       "location": "Aula 16",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 34,
       "key": 35
     },
@@ -4733,7 +4733,7 @@
       "startTime": 1100,
       "endTime": 1250,
       "location": "Aula 16",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 34,
       "key": 36
     },
@@ -4743,7 +4743,7 @@
       "startTime": 1100,
       "endTime": 1250,
       "location": "Lab. 10",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 37,
       "key": 758
     },
@@ -4753,7 +4753,7 @@
       "startTime": 1100,
       "endTime": 1250,
       "location": "Lab.  11",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 39,
       "key": 759
     },
@@ -4763,7 +4763,7 @@
       "startTime": 900,
       "endTime": 1050,
       "location": "Aula 13",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 42,
       "key": 43
     },
@@ -4773,7 +4773,7 @@
       "startTime": 900,
       "endTime": 1050,
       "location": "Lab. 1",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 42,
       "key": 44
     },
@@ -4783,7 +4783,7 @@
       "startTime": 1100,
       "endTime": 1250,
       "location": "Aula 13",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 42,
       "key": 45
     },
@@ -4793,7 +4793,7 @@
       "startTime": 1100,
       "endTime": 1250,
       "location": "Lab. 1",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 42,
       "key": 46
     },
@@ -4803,7 +4803,7 @@
       "startTime": 900,
       "endTime": 1050,
       "location": "Aula 13",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 47,
       "key": 48
     },
@@ -4813,7 +4813,7 @@
       "startTime": 900,
       "endTime": 1050,
       "location": "Lab. 11",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 47,
       "key": 49
     },
@@ -4823,7 +4823,7 @@
       "startTime": 1100,
       "endTime": 1250,
       "location": "Aula 13",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 47,
       "key": 50
     },
@@ -4833,7 +4833,7 @@
       "startTime": 1100,
       "endTime": 1250,
       "location": "Lab. 11",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 47,
       "key": 51
     },
@@ -4843,7 +4843,7 @@
       "startTime": 1000,
       "endTime": 1050,
       "location": "Aula 11",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 53,
       "key": 54
     },
@@ -4853,7 +4853,7 @@
       "startTime": 1000,
       "endTime": 1050,
       "location": "Aula 11",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 53,
       "key": 55
     },
@@ -4863,7 +4863,7 @@
       "startTime": 900,
       "endTime": 1050,
       "location": "Aula 11",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 53,
       "key": 56
     },
@@ -4873,7 +4873,7 @@
       "startTime": 900,
       "endTime": 1050,
       "location": "Lab. 9",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 57,
       "key": 58
     },
@@ -4883,7 +4883,7 @@
       "startTime": 900,
       "endTime": 1050,
       "location": "Aula 7",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 60,
       "key": 61
     },
@@ -4893,7 +4893,7 @@
       "startTime": 1000,
       "endTime": 1050,
       "location": "Aula 7",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 60,
       "key": 62
     },
@@ -4903,7 +4903,7 @@
       "startTime": 1000,
       "endTime": 1050,
       "location": "Aula 7",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 60,
       "key": 63
     },
@@ -4913,7 +4913,7 @@
       "startTime": 900,
       "endTime": 1050,
       "location": "Lab. 8",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 64,
       "key": 65
     },
@@ -4923,7 +4923,7 @@
       "startTime": 900,
       "endTime": 950,
       "location": "Aula 12",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 67,
       "key": 68
     },
@@ -4933,7 +4933,7 @@
       "startTime": 900,
       "endTime": 950,
       "location": "Aula 12",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 67,
       "key": 69
     },
@@ -4943,7 +4943,7 @@
       "startTime": 900,
       "endTime": 1050,
       "location": "Aula 12",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 67,
       "key": 70
     },
@@ -4953,7 +4953,7 @@
       "startTime": 900,
       "endTime": 1050,
       "location": "Lab. 10",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 71,
       "key": 72
     },
@@ -4963,7 +4963,7 @@
       "startTime": 900,
       "endTime": 950,
       "location": "Aula 11",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 74,
       "key": 75
     },
@@ -4973,7 +4973,7 @@
       "startTime": 900,
       "endTime": 950,
       "location": "Aula 11",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 74,
       "key": 76
     },
@@ -4983,7 +4983,7 @@
       "startTime": 900,
       "endTime": 1050,
       "location": "Aula 11",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 74,
       "key": 77
     },
@@ -4993,7 +4993,7 @@
       "startTime": 900,
       "endTime": 1050,
       "location": "Lab. 4",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 78,
       "key": 79
     },
@@ -5003,7 +5003,7 @@
       "startTime": 1600,
       "endTime": 1750,
       "location": "Aula 13",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 80,
       "key": 81
     },
@@ -5013,7 +5013,7 @@
       "startTime": 1600,
       "endTime": 1650,
       "location": "Aula 13",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 80,
       "key": 82
     },
@@ -5023,7 +5023,7 @@
       "startTime": 1600,
       "endTime": 1650,
       "location": "Aula 13",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 80,
       "key": 83
     },
@@ -5033,7 +5033,7 @@
       "startTime": 1600,
       "endTime": 1750,
       "location": "Lab. 3",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 84,
       "key": 728
     },
@@ -5043,7 +5043,7 @@
       "startTime": 1600,
       "endTime": 1750,
       "location": "Lab.  4",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 86,
       "key": 729
     },
@@ -5053,7 +5053,7 @@
       "startTime": 1600,
       "endTime": 1750,
       "location": "Aula 9",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 89,
       "key": 90
     },
@@ -5063,7 +5063,7 @@
       "startTime": 1600,
       "endTime": 1650,
       "location": "Aula 9",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 89,
       "key": 91
     },
@@ -5073,7 +5073,7 @@
       "startTime": 1600,
       "endTime": 1650,
       "location": "Aula 9",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 89,
       "key": 92
     },
@@ -5083,7 +5083,7 @@
       "startTime": 1600,
       "endTime": 1750,
       "location": "Lab. 2",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 93,
       "key": 766
     },
@@ -5093,7 +5093,7 @@
       "startTime": 1600,
       "endTime": 1750,
       "location": "Lab.  3",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 95,
       "key": 767
     },
@@ -5103,7 +5103,7 @@
       "startTime": 900,
       "endTime": 1050,
       "location": "Aula 1208",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 98,
       "key": 99
     },
@@ -5113,7 +5113,7 @@
       "startTime": 1000,
       "endTime": 1050,
       "location": "Aula 1208",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 98,
       "key": 100
     },
@@ -5123,7 +5123,7 @@
       "startTime": 900,
       "endTime": 1050,
       "location": "Lab. 1008",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 101,
       "key": 102
     },
@@ -5133,7 +5133,7 @@
       "startTime": 1100,
       "endTime": 1150,
       "location": "Aula 1218",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 104,
       "key": 105
     },
@@ -5143,7 +5143,7 @@
       "startTime": 1200,
       "endTime": 1350,
       "location": "Aula 1218",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 104,
       "key": 106
     },
@@ -5153,7 +5153,7 @@
       "startTime": 1200,
       "endTime": 1350,
       "location": "Lab. 1008",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 107,
       "key": 108
     },
@@ -5163,7 +5163,7 @@
       "startTime": 1100,
       "endTime": 1150,
       "location": "Aula 1208",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 110,
       "key": 111
     },
@@ -5173,7 +5173,7 @@
       "startTime": 900,
       "endTime": 1050,
       "location": "Aula 1208",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 110,
       "key": 112
     },
@@ -5183,7 +5183,7 @@
       "startTime": 900,
       "endTime": 950,
       "location": "Aula 1208",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 110,
       "key": 113
     },
@@ -5193,7 +5193,7 @@
       "startTime": 900,
       "endTime": 1050,
       "location": "Lab. 11",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 114,
       "key": 115
     },
@@ -5203,7 +5203,7 @@
       "startTime": 900,
       "endTime": 1050,
       "location": "Aula 1218",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 117,
       "key": 118
     },
@@ -5213,7 +5213,7 @@
       "startTime": 900,
       "endTime": 950,
       "location": "Aula 1218",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 117,
       "key": 119
     },
@@ -5223,7 +5223,7 @@
       "startTime": 900,
       "endTime": 950,
       "location": "Aula 1218",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 117,
       "key": 120
     },
@@ -5233,7 +5233,7 @@
       "startTime": 900,
       "endTime": 1050,
       "location": "Lab. 1008",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 121,
       "key": 122
     },
@@ -5243,7 +5243,7 @@
       "startTime": 1700,
       "endTime": 1850,
       "location": "Aula 5",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 124,
       "key": 125
     },
@@ -5253,7 +5253,7 @@
       "startTime": 1700,
       "endTime": 1850,
       "location": "Aula 5",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 124,
       "key": 126
     },
@@ -5263,7 +5263,7 @@
       "startTime": 1700,
       "endTime": 1850,
       "location": "Lab. 1",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 127,
       "key": 774
     },
@@ -5273,7 +5273,7 @@
       "startTime": 1700,
       "endTime": 1850,
       "location": "Lab.  10",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 129,
       "key": 775
     },
@@ -5283,7 +5283,7 @@
       "startTime": 1500,
       "endTime": 1650,
       "location": "Aula 5",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 132,
       "key": 133
     },
@@ -5293,7 +5293,7 @@
       "startTime": 1500,
       "endTime": 1650,
       "location": "Lab. 1",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 132,
       "key": 134
     },
@@ -5303,7 +5303,7 @@
       "startTime": 1600,
       "endTime": 1750,
       "location": "Aula 5",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 132,
       "key": 135
     },
@@ -5313,7 +5313,7 @@
       "startTime": 1600,
       "endTime": 1750,
       "location": "Lab. 1",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 132,
       "key": 136
     },
@@ -5323,7 +5323,7 @@
       "startTime": 1500,
       "endTime": 1650,
       "location": "Aula 5",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 137,
       "key": 138
     },
@@ -5333,7 +5333,7 @@
       "startTime": 1500,
       "endTime": 1650,
       "location": "Lab. 11",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 137,
       "key": 139
     },
@@ -5343,7 +5343,7 @@
       "startTime": 1600,
       "endTime": 1750,
       "location": "Aula 5",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 137,
       "key": 140
     },
@@ -5353,7 +5353,7 @@
       "startTime": 1600,
       "endTime": 1750,
       "location": "Lab. 11",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 137,
       "key": 141
     },
@@ -5363,7 +5363,7 @@
       "startTime": 1700,
       "endTime": 1850,
       "location": "Aula 7",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 143,
       "key": 144
     },
@@ -5373,7 +5373,7 @@
       "startTime": 1700,
       "endTime": 1850,
       "location": "Aula 7",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 143,
       "key": 145
     },
@@ -5383,7 +5383,7 @@
       "startTime": 1700,
       "endTime": 1850,
       "location": "Lab. 10",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 146,
       "key": 147
     },
@@ -5393,7 +5393,7 @@
       "startTime": 1800,
       "endTime": 1950,
       "location": "Aula 11",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 149,
       "key": 150
     },
@@ -5403,7 +5403,7 @@
       "startTime": 1800,
       "endTime": 1950,
       "location": "Aula 11",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 149,
       "key": 151
     },
@@ -5413,7 +5413,7 @@
       "startTime": 1800,
       "endTime": 1950,
       "location": "Lab. 3",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 152,
       "key": 153
     },
@@ -5423,7 +5423,7 @@
       "startTime": 1700,
       "endTime": 1850,
       "location": "Aula 7",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 155,
       "key": 156
     },
@@ -5433,7 +5433,7 @@
       "startTime": 1700,
       "endTime": 1850,
       "location": "Lab. 4",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 155,
       "key": 157
     },
@@ -5443,7 +5443,7 @@
       "startTime": 1500,
       "endTime": 1650,
       "location": "Aula 7",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 159,
       "key": 160
     },
@@ -5453,7 +5453,7 @@
       "startTime": 1500,
       "endTime": 1650,
       "location": "Aula 7",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 159,
       "key": 161
     },
@@ -5463,7 +5463,7 @@
       "startTime": 1500,
       "endTime": 1650,
       "location": "Lab. 3",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 159,
       "key": 162
     },
@@ -5473,7 +5473,7 @@
       "startTime": 1500,
       "endTime": 1650,
       "location": "Lab. 3",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 159,
       "key": 163
     },
@@ -5483,7 +5483,7 @@
       "startTime": 1500,
       "endTime": 1650,
       "location": "Lab. 4",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 159,
       "key": 164
     },
@@ -5493,7 +5493,7 @@
       "startTime": 1700,
       "endTime": 1850,
       "location": "Aula 7",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 166,
       "key": 167
     },
@@ -5503,7 +5503,7 @@
       "startTime": 1700,
       "endTime": 1850,
       "location": "Lab. 2",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 166,
       "key": 168
     },
@@ -5513,7 +5513,7 @@
       "startTime": 1600,
       "endTime": 1650,
       "location": "Aula 14",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 170,
       "key": 171
     },
@@ -5523,7 +5523,7 @@
       "startTime": 1600,
       "endTime": 1650,
       "location": "Aula 14",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 170,
       "key": 172
     },
@@ -5533,7 +5533,7 @@
       "startTime": 1600,
       "endTime": 1650,
       "location": "Aula 14",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 170,
       "key": 173
     },
@@ -5543,7 +5543,7 @@
       "startTime": 1600,
       "endTime": 1650,
       "location": "Lab. 3",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 175,
       "key": 176
     },
@@ -5553,7 +5553,7 @@
       "startTime": 1500,
       "endTime": 1550,
       "location": "Aula 6",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 178,
       "key": 179
     },
@@ -5563,7 +5563,7 @@
       "startTime": 1400,
       "endTime": 1550,
       "location": "Aula 8",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 178,
       "key": 180
     },
@@ -5573,7 +5573,7 @@
       "startTime": 1400,
       "endTime": 1550,
       "location": "Lab. 2",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 182,
       "key": 183
     },
@@ -5583,7 +5583,7 @@
       "startTime": 1600,
       "endTime": 1750,
       "location": "Aula 6",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 185,
       "key": 186
     },
@@ -5593,7 +5593,7 @@
       "startTime": 1400,
       "endTime": 1450,
       "location": "Aula 6",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 185,
       "key": 187
     },
@@ -5603,7 +5603,7 @@
       "startTime": 1600,
       "endTime": 1750,
       "location": "Lab. 10",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 189,
       "key": 190
     },
@@ -5613,7 +5613,7 @@
       "startTime": 1400,
       "endTime": 1550,
       "location": "Aula 14",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 192,
       "key": 193
     },
@@ -5623,7 +5623,7 @@
       "startTime": 1400,
       "endTime": 1450,
       "location": "Aula 14",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 192,
       "key": 194
     },
@@ -5633,7 +5633,7 @@
       "startTime": 1400,
       "endTime": 1550,
       "location": "Lab. 1",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 196,
       "key": 197
     },
@@ -5643,7 +5643,7 @@
       "startTime": 1300,
       "endTime": 1350,
       "location": "Aula 8",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 198,
       "key": 199
     },
@@ -5653,7 +5653,7 @@
       "startTime": 1300,
       "endTime": 1450,
       "location": "Aula 8",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 198,
       "key": 200
     },
@@ -5663,7 +5663,7 @@
       "startTime": 1300,
       "endTime": 1450,
       "location": "Lab. 6",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 201,
       "key": 202
     },
@@ -5673,7 +5673,7 @@
       "startTime": 1300,
       "endTime": 1450,
       "location": "Lab. 7",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 201,
       "key": 203
     },
@@ -5683,7 +5683,7 @@
       "startTime": 1500,
       "endTime": 1550,
       "location": "Aula 2",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 205,
       "key": 206
     },
@@ -5693,7 +5693,7 @@
       "startTime": 1500,
       "endTime": 1550,
       "location": "Aula 2",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 205,
       "key": 207
     },
@@ -5703,7 +5703,7 @@
       "startTime": 1500,
       "endTime": 1550,
       "location": "Aula 2",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 205,
       "key": 208
     },
@@ -5713,7 +5713,7 @@
       "startTime": 1500,
       "endTime": 1550,
       "location": "Lab. 1",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 209,
       "key": 748
     },
@@ -5723,7 +5723,7 @@
       "startTime": 1500,
       "endTime": 1550,
       "location": "Lab.  2",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 211,
       "key": 749
     },
@@ -5733,7 +5733,7 @@
       "startTime": 1000,
       "endTime": 1050,
       "location": "Aula 3",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 213,
       "key": 214
     },
@@ -5743,7 +5743,7 @@
       "startTime": 1000,
       "endTime": 1050,
       "location": "Aula 3",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 213,
       "key": 215
     },
@@ -5753,7 +5753,7 @@
       "startTime": 1000,
       "endTime": 1050,
       "location": "Aula 3",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 213,
       "key": 216
     },
@@ -5763,7 +5763,7 @@
       "startTime": 1000,
       "endTime": 1050,
       "location": "Lab. 8",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 217,
       "key": 776
     },
@@ -5773,7 +5773,7 @@
       "startTime": 1000,
       "endTime": 1050,
       "location": "Lab.  9",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 219,
       "key": 777
     },
@@ -5783,7 +5783,7 @@
       "startTime": 1600,
       "endTime": 1650,
       "location": "Aula 2",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 222,
       "key": 223
     },
@@ -5793,7 +5793,7 @@
       "startTime": 1600,
       "endTime": 1650,
       "location": "Aula 2",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 222,
       "key": 224
     },
@@ -5803,7 +5803,7 @@
       "startTime": 1500,
       "endTime": 1550,
       "location": "Aula 2",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 222,
       "key": 225
     },
@@ -5813,7 +5813,7 @@
       "startTime": 1500,
       "endTime": 1550,
       "location": "Lab. 3",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 226,
       "key": 730
     },
@@ -5823,7 +5823,7 @@
       "startTime": 1500,
       "endTime": 1550,
       "location": "Lab.  4",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 228,
       "key": 731
     },
@@ -5833,7 +5833,7 @@
       "startTime": 1100,
       "endTime": 1150,
       "location": "Aula 10",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 231,
       "key": 232
     },
@@ -5843,7 +5843,7 @@
       "startTime": 1300,
       "endTime": 1350,
       "location": "Aula 10",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 231,
       "key": 233
     },
@@ -5853,7 +5853,7 @@
       "startTime": 1000,
       "endTime": 1050,
       "location": "Aula 10",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 231,
       "key": 234
     },
@@ -5863,7 +5863,7 @@
       "startTime": 1100,
       "endTime": 1150,
       "location": "Lab. 1",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 235,
       "key": 750
     },
@@ -5873,7 +5873,7 @@
       "startTime": 1100,
       "endTime": 1150,
       "location": "Lab.  2",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 237,
       "key": 751
     },
@@ -5883,7 +5883,7 @@
       "startTime": 1300,
       "endTime": 1350,
       "location": "Aula 5",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 239,
       "key": 240
     },
@@ -5893,7 +5893,7 @@
       "startTime": 1300,
       "endTime": 1450,
       "location": "Aula 5",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 239,
       "key": 241
     },
@@ -5903,7 +5903,7 @@
       "startTime": 1400,
       "endTime": 1450,
       "location": "Lab. 10",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 242,
       "key": 760
     },
@@ -5913,7 +5913,7 @@
       "startTime": 1400,
       "endTime": 1450,
       "location": "Lab.  11",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 244,
       "key": 761
     },
@@ -5923,7 +5923,7 @@
       "startTime": 1000,
       "endTime": 1050,
       "location": "Aula 3",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 247,
       "key": 248
     },
@@ -5933,7 +5933,7 @@
       "startTime": 1100,
       "endTime": 1250,
       "location": "Aula 3",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 247,
       "key": 249
     },
@@ -5943,7 +5943,7 @@
       "startTime": 1100,
       "endTime": 1250,
       "location": "Lab. 3",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 250,
       "key": 732
     },
@@ -5953,7 +5953,7 @@
       "startTime": 1100,
       "endTime": 1250,
       "location": "Lab.  4",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 252,
       "key": 733
     },
@@ -5963,7 +5963,7 @@
       "startTime": 1900,
       "endTime": 1950,
       "location": "Aula 2",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 254,
       "key": 255
     },
@@ -5973,7 +5973,7 @@
       "startTime": 1600,
       "endTime": 1750,
       "location": "Aula 2",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 254,
       "key": 256
     },
@@ -5983,7 +5983,7 @@
       "startTime": 1600,
       "endTime": 1750,
       "location": "Lab. 8",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 257,
       "key": 258
     },
@@ -5993,7 +5993,7 @@
       "startTime": 1000,
       "endTime": 1150,
       "location": "Aula 10",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 260,
       "key": 261
     },
@@ -6003,7 +6003,7 @@
       "startTime": 1100,
       "endTime": 1150,
       "location": "Aula 10",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 260,
       "key": 262
     },
@@ -6013,7 +6013,7 @@
       "startTime": 1000,
       "endTime": 1150,
       "location": "Lab. 5",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 263,
       "key": 778
     },
@@ -6023,7 +6023,7 @@
       "startTime": 1000,
       "endTime": 1150,
       "location": "Lab.  6",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 265,
       "key": 779
     },
@@ -6033,7 +6033,7 @@
       "startTime": 1800,
       "endTime": 1850,
       "location": "Aula 2",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 268,
       "key": 269
     },
@@ -6043,7 +6043,7 @@
       "startTime": 1700,
       "endTime": 1850,
       "location": "Aula 2",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 268,
       "key": 270
     },
@@ -6053,7 +6053,7 @@
       "startTime": 1700,
       "endTime": 1850,
       "location": "Lab. 5",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 271,
       "key": 272
     },
@@ -6063,7 +6063,7 @@
       "startTime": 1800,
       "endTime": 1950,
       "location": "Aula 8",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 274,
       "key": 275
     },
@@ -6073,7 +6073,7 @@
       "startTime": 1800,
       "endTime": 1950,
       "location": "Aula 8",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 274,
       "key": 276
     },
@@ -6083,7 +6083,7 @@
       "startTime": 1800,
       "endTime": 1950,
       "location": "Lab. 5",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 277,
       "key": 780
     },
@@ -6093,7 +6093,7 @@
       "startTime": 1800,
       "endTime": 1950,
       "location": "Lab.  6",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 279,
       "key": 781
     },
@@ -6103,7 +6103,7 @@
       "startTime": 1800,
       "endTime": 1950,
       "location": "Aula 10",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 282,
       "key": 283
     },
@@ -6113,7 +6113,7 @@
       "startTime": 1600,
       "endTime": 1750,
       "location": "Aula 10",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 282,
       "key": 284
     },
@@ -6123,7 +6123,7 @@
       "startTime": 1600,
       "endTime": 1750,
       "location": "Lab. 1",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 285,
       "key": 752
     },
@@ -6133,7 +6133,7 @@
       "startTime": 1600,
       "endTime": 1750,
       "location": "Lab.  2",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 287,
       "key": 753
     },
@@ -6143,7 +6143,7 @@
       "startTime": 1600,
       "endTime": 1750,
       "location": "Aula 8",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 290,
       "key": 291
     },
@@ -6153,7 +6153,7 @@
       "startTime": 1600,
       "endTime": 1750,
       "location": "Aula 8",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 290,
       "key": 292
     },
@@ -6163,7 +6163,7 @@
       "startTime": 1600,
       "endTime": 1750,
       "location": "Lab. 6",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 294,
       "key": 782
     },
@@ -6173,7 +6173,7 @@
       "startTime": 1600,
       "endTime": 1750,
       "location": "Lab.  7",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 296,
       "key": 783
     },
@@ -6183,7 +6183,7 @@
       "startTime": 1800,
       "endTime": 1950,
       "location": "Aula 14",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 299,
       "key": 300
     },
@@ -6193,7 +6193,7 @@
       "startTime": 1800,
       "endTime": 1950,
       "location": "Aula 14",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 299,
       "key": 301
     },
@@ -6203,7 +6203,7 @@
       "startTime": 1800,
       "endTime": 1950,
       "location": "Lab. 3",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 302,
       "key": 734
     },
@@ -6213,7 +6213,7 @@
       "startTime": 1800,
       "endTime": 1950,
       "location": "Lab.  4",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 304,
       "key": 735
     },
@@ -6223,7 +6223,7 @@
       "startTime": 900,
       "endTime": 950,
       "location": "Aula 4",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 307,
       "key": 308
     },
@@ -6233,7 +6233,7 @@
       "startTime": 900,
       "endTime": 950,
       "location": "Aula 4",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 307,
       "key": 309
     },
@@ -6243,7 +6243,7 @@
       "startTime": 900,
       "endTime": 1050,
       "location": "Aula 4",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 307,
       "key": 310
     },
@@ -6253,7 +6253,7 @@
       "startTime": 900,
       "endTime": 1050,
       "location": "Lab. 1",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 312,
       "key": 754
     },
@@ -6263,7 +6263,7 @@
       "startTime": 900,
       "endTime": 1050,
       "location": "Lab.  2",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 314,
       "key": 755
     },
@@ -6273,7 +6273,7 @@
       "startTime": 1300,
       "endTime": 1350,
       "location": "Aula 4",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 317,
       "key": 318
     },
@@ -6283,7 +6283,7 @@
       "startTime": 1200,
       "endTime": 1350,
       "location": "Aula 4",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 317,
       "key": 319
     },
@@ -6293,7 +6293,7 @@
       "startTime": 1200,
       "endTime": 1350,
       "location": "Lab. 4",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 320,
       "key": 788
     },
@@ -6303,7 +6303,7 @@
       "startTime": 1200,
       "endTime": 1350,
       "location": "Lab.  5",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 323,
       "key": 789
     },
@@ -6313,7 +6313,7 @@
       "startTime": 900,
       "endTime": 950,
       "location": "Aula 4",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 326,
       "key": 327
     },
@@ -6323,7 +6323,7 @@
       "startTime": 900,
       "endTime": 1050,
       "location": "Aula 4",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 326,
       "key": 328
     },
@@ -6333,7 +6333,7 @@
       "startTime": 900,
       "endTime": 1050,
       "location": "Lab. 2",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 329,
       "key": 768
     },
@@ -6343,7 +6343,7 @@
       "startTime": 900,
       "endTime": 1050,
       "location": "Lab.  3",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 331,
       "key": 769
     },
@@ -6353,7 +6353,7 @@
       "startTime": 1600,
       "endTime": 1750,
       "location": "Aula 4",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 334,
       "key": 335
     },
@@ -6363,7 +6363,7 @@
       "startTime": 1600,
       "endTime": 1750,
       "location": "Aula 4",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 334,
       "key": 336
     },
@@ -6373,7 +6373,7 @@
       "startTime": 1600,
       "endTime": 1750,
       "location": "Lab. 10",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 338,
       "key": 339
     },
@@ -6383,7 +6383,7 @@
       "startTime": 1300,
       "endTime": 1350,
       "location": "Aula 10",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 340,
       "key": 341
     },
@@ -6393,7 +6393,7 @@
       "startTime": 1300,
       "endTime": 1450,
       "location": "Aula 10",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 340,
       "key": 342
     },
@@ -6403,7 +6403,7 @@
       "startTime": 1300,
       "endTime": 1450,
       "location": "Lab. 6",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 343,
       "key": 790
     },
@@ -6413,7 +6413,7 @@
       "startTime": 1300,
       "endTime": 1450,
       "location": "Lab.  8",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 345,
       "key": 791
     },
@@ -6423,7 +6423,7 @@
       "startTime": 1230,
       "endTime": 1420,
       "location": "Lab. 1",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 348,
       "key": 349
     },
@@ -6433,7 +6433,7 @@
       "startTime": 1100,
       "endTime": 1150,
       "location": "Aula 7",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 350,
       "key": 351
     },
@@ -6443,7 +6443,7 @@
       "startTime": 1000,
       "endTime": 1050,
       "location": "Aula 7",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 350,
       "key": 352
     },
@@ -6453,7 +6453,7 @@
       "startTime": 1230,
       "endTime": 1420,
       "location": "Aula 3",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 350,
       "key": 353
     },
@@ -6463,7 +6463,7 @@
       "startTime": 1100,
       "endTime": 1250,
       "location": "Aula 13",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 355,
       "key": 356
     },
@@ -6473,7 +6473,7 @@
       "startTime": 1100,
       "endTime": 1250,
       "location": "Aula 13",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 355,
       "key": 357
     },
@@ -6483,7 +6483,7 @@
       "startTime": 1100,
       "endTime": 1250,
       "location": "Aula 14",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 355,
       "key": 358
     },
@@ -6493,7 +6493,7 @@
       "startTime": 1100,
       "endTime": 1250,
       "location": "Lab. 2",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 359,
       "key": 770
     },
@@ -6503,7 +6503,7 @@
       "startTime": 1100,
       "endTime": 1250,
       "location": "Lab.  3",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 361,
       "key": 771
     },
@@ -6513,7 +6513,7 @@
       "startTime": 900,
       "endTime": 1050,
       "location": "Aula 13",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 364,
       "key": 365
     },
@@ -6523,7 +6523,7 @@
       "startTime": 900,
       "endTime": 1050,
       "location": "Aula 13",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 364,
       "key": 366
     },
@@ -6533,7 +6533,7 @@
       "startTime": 900,
       "endTime": 1050,
       "location": "Aula 14",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 364,
       "key": 367
     },
@@ -6543,7 +6543,7 @@
       "startTime": 900,
       "endTime": 1050,
       "location": "Lab. 1",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 364,
       "key": 368
     },
@@ -6553,7 +6553,7 @@
       "startTime": 900,
       "endTime": 1050,
       "location": "Lab. 1",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 364,
       "key": 369
     },
@@ -6563,7 +6563,7 @@
       "startTime": 900,
       "endTime": 1050,
       "location": "Aula 13",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 370,
       "key": 371
     },
@@ -6573,7 +6573,7 @@
       "startTime": 900,
       "endTime": 1050,
       "location": "Aula 13",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 370,
       "key": 372
     },
@@ -6583,7 +6583,7 @@
       "startTime": 900,
       "endTime": 1050,
       "location": "Aula 14",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 370,
       "key": 373
     },
@@ -6593,7 +6593,7 @@
       "startTime": 900,
       "endTime": 1050,
       "location": "Lab. 11",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 370,
       "key": 374
     },
@@ -6603,7 +6603,7 @@
       "startTime": 900,
       "endTime": 1050,
       "location": "Lab. 11",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 370,
       "key": 375
     },
@@ -6613,7 +6613,7 @@
       "startTime": 1000,
       "endTime": 1050,
       "location": "Aula 1218",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 377,
       "key": 378
     },
@@ -6623,7 +6623,7 @@
       "startTime": 1100,
       "endTime": 1250,
       "location": "Aula 1218",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 377,
       "key": 379
     },
@@ -6633,7 +6633,7 @@
       "startTime": 1200,
       "endTime": 1250,
       "location": "Aula 1218",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 377,
       "key": 380
     },
@@ -6643,7 +6643,7 @@
       "startTime": 1100,
       "endTime": 1250,
       "location": "Lab. 1008",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 381,
       "key": 382
     },
@@ -6653,7 +6653,7 @@
       "startTime": 1200,
       "endTime": 1350,
       "location": "Aula 1218",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 384,
       "key": 385
     },
@@ -6663,7 +6663,7 @@
       "startTime": 1200,
       "endTime": 1350,
       "location": "Lab. 1008",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 384,
       "key": 386
     },
@@ -6673,7 +6673,7 @@
       "startTime": 900,
       "endTime": 1050,
       "location": "Aula 9",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 388,
       "key": 389
     },
@@ -6683,7 +6683,7 @@
       "startTime": 900,
       "endTime": 950,
       "location": "Aula 9",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 388,
       "key": 390
     },
@@ -6693,7 +6693,7 @@
       "startTime": 900,
       "endTime": 950,
       "location": "Aula 9",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 388,
       "key": 391
     },
@@ -6703,7 +6703,7 @@
       "startTime": 900,
       "endTime": 1050,
       "location": "Aula 9",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 392,
       "key": 393
     },
@@ -6713,7 +6713,7 @@
       "startTime": 900,
       "endTime": 950,
       "location": "Aula 9",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 392,
       "key": 394
     },
@@ -6723,7 +6723,7 @@
       "startTime": 900,
       "endTime": 950,
       "location": "Aula 9",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 392,
       "key": 395
     },
@@ -6733,7 +6733,7 @@
       "startTime": 1100,
       "endTime": 1250,
       "location": "Aula 9",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 397,
       "key": 398
     },
@@ -6743,7 +6743,7 @@
       "startTime": 1100,
       "endTime": 1150,
       "location": "Aula 9",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 397,
       "key": 399
     },
@@ -6753,7 +6753,7 @@
       "startTime": 1100,
       "endTime": 1250,
       "location": "Lab. 3",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 400,
       "key": 736
     },
@@ -6763,7 +6763,7 @@
       "startTime": 1100,
       "endTime": 1250,
       "location": "Lab.  4",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 402,
       "key": 737
     },
@@ -6773,7 +6773,7 @@
       "startTime": 900,
       "endTime": 1050,
       "location": "Aula 9",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 405,
       "key": 406
     },
@@ -6783,7 +6783,7 @@
       "startTime": 900,
       "endTime": 950,
       "location": "Aula 9",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 405,
       "key": 407
     },
@@ -6793,7 +6793,7 @@
       "startTime": 900,
       "endTime": 1050,
       "location": "Lab. 1",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 408,
       "key": 742
     },
@@ -6803,7 +6803,7 @@
       "startTime": 900,
       "endTime": 1050,
       "location": "Lab.  11",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 411,
       "key": 743
     },
@@ -6813,7 +6813,7 @@
       "startTime": 1100,
       "endTime": 1250,
       "location": "Aula 8",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 414,
       "key": 415
     },
@@ -6823,7 +6823,7 @@
       "startTime": 1100,
       "endTime": 1250,
       "location": "Aula 8",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 414,
       "key": 416
     },
@@ -6833,7 +6833,7 @@
       "startTime": 1100,
       "endTime": 1250,
       "location": "Lab. 10",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 417,
       "key": 762
     },
@@ -6843,7 +6843,7 @@
       "startTime": 1100,
       "endTime": 1250,
       "location": "Lab.  11",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 419,
       "key": 763
     },
@@ -6853,7 +6853,7 @@
       "startTime": 1100,
       "endTime": 1250,
       "location": "Aula 5",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 422,
       "key": 423
     },
@@ -6863,7 +6863,7 @@
       "startTime": 1000,
       "endTime": 1150,
       "location": "Aula 5",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 422,
       "key": 424
     },
@@ -6873,7 +6873,7 @@
       "startTime": 1100,
       "endTime": 1250,
       "location": "Lab. 6",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 425,
       "key": 784
     },
@@ -6883,7 +6883,7 @@
       "startTime": 1100,
       "endTime": 1250,
       "location": "Lab.  7",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 427,
       "key": 785
     },
@@ -6893,7 +6893,7 @@
       "startTime": 900,
       "endTime": 1050,
       "location": "Aula 1210",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 430,
       "key": 431
     },
@@ -6903,7 +6903,7 @@
       "startTime": 900,
       "endTime": 1050,
       "location": "Aula 1210",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 430,
       "key": 432
     },
@@ -6913,7 +6913,7 @@
       "startTime": 900,
       "endTime": 1050,
       "location": "Lab. 4",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 433,
       "key": 434
     },
@@ -6923,7 +6923,7 @@
       "startTime": 900,
       "endTime": 1050,
       "location": "Lab. 5",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 433,
       "key": 435
     },
@@ -6933,7 +6933,7 @@
       "startTime": 1700,
       "endTime": 1850,
       "location": "Aula 8",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 437,
       "key": 438
     },
@@ -6943,7 +6943,7 @@
       "startTime": 1700,
       "endTime": 1850,
       "location": "Aula 8",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 437,
       "key": 439
     },
@@ -6953,7 +6953,7 @@
       "startTime": 1700,
       "endTime": 1850,
       "location": "Lab. 6",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 441,
       "key": 792
     },
@@ -6963,7 +6963,7 @@
       "startTime": 1700,
       "endTime": 1850,
       "location": "Lab.  8",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 443,
       "key": 793
     },
@@ -6973,7 +6973,7 @@
       "startTime": 1100,
       "endTime": 1250,
       "location": "Aula 8",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 446,
       "key": 447
     },
@@ -6983,7 +6983,7 @@
       "startTime": 1100,
       "endTime": 1250,
       "location": "Aula 8",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 446,
       "key": 448
     },
@@ -6993,7 +6993,7 @@
       "startTime": 1100,
       "endTime": 1250,
       "location": "Lab. 1",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 449,
       "key": 794
     },
@@ -7003,7 +7003,7 @@
       "startTime": 1100,
       "endTime": 1250,
       "location": "Lab. 10",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 451,
       "key": 795
     },
@@ -7013,7 +7013,7 @@
       "startTime": 1100,
       "endTime": 1250,
       "location": "Lab. 11",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 453,
       "key": 796
     },
@@ -7023,7 +7023,7 @@
       "startTime": 1100,
       "endTime": 1250,
       "location": "Aula 8",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 456,
       "key": 457
     },
@@ -7033,7 +7033,7 @@
       "startTime": 1100,
       "endTime": 1250,
       "location": "Aula 8",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 456,
       "key": 458
     },
@@ -7043,7 +7043,7 @@
       "startTime": 1100,
       "endTime": 1250,
       "location": "Lab. 2",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 459,
       "key": 772
     },
@@ -7053,7 +7053,7 @@
       "startTime": 1100,
       "endTime": 1250,
       "location": "Lab.  3",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 461,
       "key": 773
     },
@@ -7063,7 +7063,7 @@
       "startTime": 900,
       "endTime": 1050,
       "location": "Aula 5",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 464,
       "key": 465
     },
@@ -7073,7 +7073,7 @@
       "startTime": 900,
       "endTime": 1050,
       "location": "Aula 5",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 464,
       "key": 466
     },
@@ -7083,7 +7083,7 @@
       "startTime": 900,
       "endTime": 1050,
       "location": "Lab. 1",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 467,
       "key": 797
     },
@@ -7093,7 +7093,7 @@
       "startTime": 900,
       "endTime": 1050,
       "location": "Lab.  2",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 469,
       "key": 798
     },
@@ -7103,7 +7103,7 @@
       "startTime": 900,
       "endTime": 1050,
       "location": "Lab.  3",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 471,
       "key": 799
     },
@@ -7113,7 +7113,7 @@
       "startTime": 1330,
       "endTime": 1420,
       "location": "Aula 1220",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 474,
       "key": 475
     },
@@ -7123,7 +7123,7 @@
       "startTime": 1130,
       "endTime": 1320,
       "location": "Aula 1220",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 474,
       "key": 476
     },
@@ -7133,7 +7133,7 @@
       "startTime": 1130,
       "endTime": 1320,
       "location": "Lab. 9",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 477,
       "key": 478
     },
@@ -7143,7 +7143,7 @@
       "startTime": 1330,
       "endTime": 1420,
       "location": "Aula 1208",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 480,
       "key": 481
     },
@@ -7153,7 +7153,7 @@
       "startTime": 1230,
       "endTime": 1420,
       "location": "Aula 1208",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 480,
       "key": 482
     },
@@ -7163,7 +7163,7 @@
       "startTime": 1230,
       "endTime": 1420,
       "location": "Lab. 6",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 483,
       "key": 484
     },
@@ -7173,7 +7173,7 @@
       "startTime": 1600,
       "endTime": 1750,
       "location": "Aula 16",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 486,
       "key": 487
     },
@@ -7183,7 +7183,7 @@
       "startTime": 1600,
       "endTime": 1750,
       "location": "Aula 16",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 486,
       "key": 488
     },
@@ -7193,7 +7193,7 @@
       "startTime": 1600,
       "endTime": 1750,
       "location": "Lab. 1",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 489,
       "key": 490
     },
@@ -7203,7 +7203,7 @@
       "startTime": 1600,
       "endTime": 1750,
       "location": "Lab. 2",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 489,
       "key": 491
     },
@@ -7213,7 +7213,7 @@
       "startTime": 1600,
       "endTime": 1750,
       "location": "Aula 16",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 493,
       "key": 494
     },
@@ -7223,7 +7223,7 @@
       "startTime": 1600,
       "endTime": 1750,
       "location": "Aula 16",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 493,
       "key": 495
     },
@@ -7233,7 +7233,7 @@
       "startTime": 1600,
       "endTime": 1750,
       "location": "Lab. 1",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 496,
       "key": 497
     },
@@ -7243,7 +7243,7 @@
       "startTime": 1600,
       "endTime": 1750,
       "location": "Lab. 11",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 496,
       "key": 498
     },
@@ -7253,7 +7253,7 @@
       "startTime": 1600,
       "endTime": 1750,
       "location": "Aula 16",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 500,
       "key": 501
     },
@@ -7263,7 +7263,7 @@
       "startTime": 1600,
       "endTime": 1750,
       "location": "Aula 16",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 500,
       "key": 502
     },
@@ -7273,7 +7273,7 @@
       "startTime": 1600,
       "endTime": 1750,
       "location": "Lab. 10",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 503,
       "key": 764
     },
@@ -7283,7 +7283,7 @@
       "startTime": 1600,
       "endTime": 1750,
       "location": "Lab.  11",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 505,
       "key": 765
     },
@@ -7293,7 +7293,7 @@
       "startTime": 1800,
       "endTime": 1950,
       "location": "Aula 16",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 508,
       "key": 509
     },
@@ -7303,7 +7303,7 @@
       "startTime": 1800,
       "endTime": 1950,
       "location": "Aula 16",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 508,
       "key": 510
     },
@@ -7313,7 +7313,7 @@
       "startTime": 1800,
       "endTime": 1950,
       "location": "Lab. 1",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 511,
       "key": 756
     },
@@ -7323,7 +7323,7 @@
       "startTime": 1800,
       "endTime": 1950,
       "location": "Lab.  2",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 513,
       "key": 757
     },
@@ -7333,7 +7333,7 @@
       "startTime": 1600,
       "endTime": 1750,
       "location": "Aula 10",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 516,
       "key": 517
     },
@@ -7343,7 +7343,7 @@
       "startTime": 1600,
       "endTime": 1750,
       "location": "Aula 10",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 516,
       "key": 518
     },
@@ -7353,7 +7353,7 @@
       "startTime": 1600,
       "endTime": 1750,
       "location": "Lab. 7",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 519,
       "key": 520
     },
@@ -7363,7 +7363,7 @@
       "startTime": 1600,
       "endTime": 1750,
       "location": "Lab. 8",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 521,
       "key": 522
     },
@@ -7373,7 +7373,7 @@
       "startTime": 900,
       "endTime": 1050,
       "location": "Aula 13",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 524,
       "key": 525
     },
@@ -7383,7 +7383,7 @@
       "startTime": 900,
       "endTime": 1050,
       "location": "Aula 13",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 524,
       "key": 526
     },
@@ -7393,7 +7393,7 @@
       "startTime": 900,
       "endTime": 1050,
       "location": "Lab. 3",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 527,
       "key": 738
     },
@@ -7403,7 +7403,7 @@
       "startTime": 900,
       "endTime": 1050,
       "location": "Lab.  4",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 529,
       "key": 739
     },
@@ -7413,7 +7413,7 @@
       "startTime": 1800,
       "endTime": 1950,
       "location": "Aula 4",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 532,
       "key": 533
     },
@@ -7423,7 +7423,7 @@
       "startTime": 1800,
       "endTime": 1950,
       "location": "Aula 4",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 532,
       "key": 534
     },
@@ -7433,7 +7433,7 @@
       "startTime": 1800,
       "endTime": 1950,
       "location": "Lab. 6",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 535,
       "key": 786
     },
@@ -7443,7 +7443,7 @@
       "startTime": 1800,
       "endTime": 1950,
       "location": "Lab.  7",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 537,
       "key": 787
     },
@@ -7453,7 +7453,7 @@
       "startTime": 1100,
       "endTime": 1250,
       "location": "Aula 13",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 540,
       "key": 541
     },
@@ -7463,7 +7463,7 @@
       "startTime": 1100,
       "endTime": 1250,
       "location": "Aula 13",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 540,
       "key": 542
     },
@@ -7473,7 +7473,7 @@
       "startTime": 900,
       "endTime": 1050,
       "location": "Aula 1208",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 544,
       "key": 545
     },
@@ -7483,7 +7483,7 @@
       "startTime": 1000,
       "endTime": 1150,
       "location": "Aula 1208",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 544,
       "key": 546
     },
@@ -7493,7 +7493,7 @@
       "startTime": 900,
       "endTime": 1050,
       "location": "Lab. 9",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 547,
       "key": 800
     },
@@ -7503,7 +7503,7 @@
       "startTime": 900,
       "endTime": 1050,
       "location": "Lab.  10",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 550,
       "key": 801
     },
@@ -7513,7 +7513,7 @@
       "startTime": 1700,
       "endTime": 1850,
       "location": "Aula 1208",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 552,
       "key": 553
     },
@@ -7523,7 +7523,7 @@
       "startTime": 1700,
       "endTime": 1850,
       "location": "Aula 1208",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 552,
       "key": 554
     },
@@ -7533,7 +7533,7 @@
       "startTime": 1700,
       "endTime": 1850,
       "location": "Lab. 6",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 555,
       "key": 556
     },
@@ -7543,7 +7543,7 @@
       "startTime": 1600,
       "endTime": 1750,
       "location": "Aula 1208",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 557,
       "key": 558
     },
@@ -7553,7 +7553,7 @@
       "startTime": 1600,
       "endTime": 1750,
       "location": "Aula 1208",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 557,
       "key": 559
     },
@@ -7563,7 +7563,7 @@
       "startTime": 1600,
       "endTime": 1750,
       "location": "Lab. 3",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 560,
       "key": 561
     },
@@ -7573,7 +7573,7 @@
       "startTime": 1100,
       "endTime": 1250,
       "location": "Aula 14",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 563,
       "key": 564
     },
@@ -7583,7 +7583,7 @@
       "startTime": 1300,
       "endTime": 1450,
       "location": "Aula 14",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 563,
       "key": 565
     },
@@ -7593,7 +7593,7 @@
       "startTime": 1300,
       "endTime": 1450,
       "location": "Lab. 9",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 566,
       "key": 802
     },
@@ -7603,7 +7603,7 @@
       "startTime": 1300,
       "endTime": 1450,
       "location": "Lab.  10",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 568,
       "key": 803
     },
@@ -7613,7 +7613,7 @@
       "startTime": 1600,
       "endTime": 1750,
       "location": "Aula 13",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 571,
       "key": 572
     },
@@ -7623,7 +7623,7 @@
       "startTime": 1600,
       "endTime": 1750,
       "location": "Aula 13",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 571,
       "key": 573
     },
@@ -7633,7 +7633,7 @@
       "startTime": 1600,
       "endTime": 1750,
       "location": "Lab. 5",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 574,
       "key": 575
     },
@@ -7643,7 +7643,7 @@
       "startTime": 1600,
       "endTime": 1750,
       "location": "Lab. 6",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 574,
       "key": 576
     },
@@ -7653,7 +7653,7 @@
       "startTime": 1400,
       "endTime": 1550,
       "location": "Lab. 4",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 578,
       "key": 579
     },
@@ -7663,7 +7663,7 @@
       "startTime": 1400,
       "endTime": 1550,
       "location": "Aula 13",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 580,
       "key": 581
     },
@@ -7673,7 +7673,7 @@
       "startTime": 1400,
       "endTime": 1550,
       "location": "Aula 13",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 580,
       "key": 582
     },
@@ -7683,7 +7683,7 @@
       "startTime": 1400,
       "endTime": 1550,
       "location": "Aula 4",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 584,
       "key": 585
     },
@@ -7693,7 +7693,7 @@
       "startTime": 1400,
       "endTime": 1550,
       "location": "Aula 4",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 584,
       "key": 586
     },
@@ -7703,7 +7703,7 @@
       "startTime": 1400,
       "endTime": 1550,
       "location": "Lab. 6",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 587,
       "key": 588
     },
@@ -7713,7 +7713,7 @@
       "startTime": 1400,
       "endTime": 1550,
       "location": "Aula 3",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 590,
       "key": 591
     },
@@ -7723,7 +7723,7 @@
       "startTime": 1400,
       "endTime": 1550,
       "location": "Aula 3",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 590,
       "key": 592
     },
@@ -7733,7 +7733,7 @@
       "startTime": 1400,
       "endTime": 1550,
       "location": "Lab. 10",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 593,
       "key": 594
     },
@@ -7743,7 +7743,7 @@
       "startTime": 1400,
       "endTime": 1550,
       "location": "Lab. 11",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 593,
       "key": 595
     },
@@ -7753,7 +7753,7 @@
       "startTime": 1400,
       "endTime": 1550,
       "location": "Aula 10",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 597,
       "key": 598
     },
@@ -7763,7 +7763,7 @@
       "startTime": 1400,
       "endTime": 1550,
       "location": "Aula 10",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 597,
       "key": 599
     },
@@ -7773,7 +7773,7 @@
       "startTime": 1400,
       "endTime": 1550,
       "location": "Lab. 7",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 600,
       "key": 601
     },
@@ -7783,7 +7783,7 @@
       "startTime": 1400,
       "endTime": 1550,
       "location": "Aula 13",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 603,
       "key": 604
     },
@@ -7793,7 +7793,7 @@
       "startTime": 1400,
       "endTime": 1550,
       "location": "Aula 13",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 603,
       "key": 605
     },
@@ -7803,7 +7803,7 @@
       "startTime": 1400,
       "endTime": 1550,
       "location": "Lab. 5",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 606,
       "key": 607
     },
@@ -7813,7 +7813,7 @@
       "startTime": 1300,
       "endTime": 1450,
       "location": "Aula 4",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 609,
       "key": 610
     },
@@ -7823,7 +7823,7 @@
       "startTime": 1300,
       "endTime": 1450,
       "location": "Aula 4",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 609,
       "key": 611
     },
@@ -7833,7 +7833,7 @@
       "startTime": 1300,
       "endTime": 1450,
       "location": "Lab. 9",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 612,
       "key": 613
     },
@@ -7843,7 +7843,7 @@
       "startTime": 1400,
       "endTime": 1550,
       "location": "Aula 3",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 615,
       "key": 616
     },
@@ -7853,7 +7853,7 @@
       "startTime": 1400,
       "endTime": 1550,
       "location": "Aula 3",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 615,
       "key": 617
     },
@@ -7863,7 +7863,7 @@
       "startTime": 1400,
       "endTime": 1550,
       "location": "Lab. 6",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 618,
       "key": 619
     },
@@ -7873,7 +7873,7 @@
       "startTime": 1400,
       "endTime": 1550,
       "location": "Lab. 11",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 621,
       "key": 622
     },
@@ -7883,7 +7883,7 @@
       "startTime": 1400,
       "endTime": 1550,
       "location": "Lab. 11",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 621,
       "key": 623
     },
@@ -7893,7 +7893,7 @@
       "startTime": 1400,
       "endTime": 1550,
       "location": "Aula 15",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 625,
       "key": 626
     },
@@ -7903,7 +7903,7 @@
       "startTime": 1400,
       "endTime": 1550,
       "location": "Aula 15",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 625,
       "key": 627
     },
@@ -7913,7 +7913,7 @@
       "startTime": 1400,
       "endTime": 1550,
       "location": "Lab. 7",
-      "semester": "FALL",
+      "semester": "Otoño",
       "groupId": 628,
       "key": 629
     },
@@ -7923,7 +7923,7 @@
       "startTime": 1400,
       "endTime": 1550,
       "location": "Aula 16",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 631,
       "key": 632
     },
@@ -7933,7 +7933,7 @@
       "startTime": 1400,
       "endTime": 1550,
       "location": "Aula 16",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 631,
       "key": 633
     },
@@ -7943,7 +7943,7 @@
       "startTime": 1400,
       "endTime": 1550,
       "location": "Lab. 9",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 634,
       "key": 635
     },
@@ -7953,7 +7953,7 @@
       "startTime": 1400,
       "endTime": 1550,
       "location": "Lab. 9",
-      "semester": "SPRING",
+      "semester": "Primavera",
       "groupId": 634,
       "key": 636
     }
