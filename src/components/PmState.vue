@@ -121,6 +121,16 @@
             @editGroup="editGroup(selected.id)" @rmGroup="rmGroup(selected.id)" />
         </div>
       </div>
+<!-- Panel de detalles superpuesto -->
+<div v-if="showDetails" class="details-overlay">
+  <div class="details-content">
+    <button @click="showDetails = false" class="close-btn">Cerrar</button>
+    <UserDetails :element="selected" @editUser="editUser(selected.id)" @rmUser="rmUser(selected.id)"
+      @editSubject="editSubject(selected.id)" @rmSubject="rmSubject(selected.id)"
+      @editGroup="editGroup(selected.id)" @rmGroup="rmGroup(selected.id)" />
+  </div>
+
+</div>
     </div>
   </div>
 
@@ -161,6 +171,7 @@ import { ref, computed, onMounted, nextTick } from 'vue';
 import { gState, semesterNames } from '../state.js';
 import * as bootstrap from 'bootstrap'
 import * as U from '../util.js'
+import UserDetails from './UserDetails.vue';
 
 // tooltips html para elementos con data-bs-toggle="tooltip"]
 onMounted(() => {
@@ -287,12 +298,15 @@ const locations = computed(() => addLocationCols(props.state.getSlots()))
 
 const selected = ref({ id: -1 })
 
+const showDetails = ref(false);
+
 const selectOne = (type, id) => {
   const element = (typeof id == 'string') ?
     locations.value.find(o => o.id == id) :
     gState.resolve(id)
   console.log(`selected ${type} ${id}`, element)
   selected.value = element
+  showDetails.value = true; // Mostrar el panel de detalles
 }
 
 /////
@@ -430,5 +444,37 @@ span.filter {
 
 span.filter:hover {
   border-bottom: 2px dashed blue;
+}
+.details-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto; /* Permitir desplazamiento */
+}
+.details-overlay .details-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 90%; /* Ajustar el ancho máximo para pantallas móviles */
+  max-height: 90%; /* Ajustar la altura máxima para pantallas móviles */
+  overflow-y: auto; /* Permitir desplazamiento vertical */
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: white;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
 }
 </style>
