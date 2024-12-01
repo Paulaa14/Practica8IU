@@ -125,7 +125,7 @@
 <div v-if="showDetails" class="details-overlay">
   <div class="details-content">
     <button @click="showDetails = false" class="close-btn">Cerrar</button>
-    <UserDetails :element="selected" @editUser="editUser(selected.id)" @rmUser="rmUser(selected.id)"
+    <DetailsPane :element="selected" @editUser="editUser(selected.id)" @rmUser="rmUser(selected.id)"
       @editSubject="editSubject(selected.id)" @rmSubject="rmSubject(selected.id)"
       @editGroup="editGroup(selected.id)" @rmGroup="rmGroup(selected.id)" />
   </div>
@@ -186,9 +186,9 @@ const debug = false;
 
 // para vista de usuarios; ver doc. en SortableGrid
 const userColumns = [
-  { key: 'userName', display: 'Login', type: 'String' },
-  { key: 'firstName', display: 'First name', type: 'String' },
-  { key: 'lastName', display: 'Last name', type: 'String' },
+  { key: 'userName', display: 'Usuario', type: 'String' },
+  { key: 'firstName', display: 'Nombre', type: 'String' },
+  { key: 'lastName', display: 'Apellido/s', type: 'String' },
   { key: 'maxCredits', display: 'Totales', type: 'Number' },
   { key: 'assignedCredits', display: 'Imparte', type: 'Number' },
   { 
