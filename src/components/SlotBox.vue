@@ -27,6 +27,8 @@
         <button type="button" @click="rm(slot)" title = "Eliminar slot">🗑️</button>
       </div>
       <button type="button" @click="add" title = "Añadir nuevo slot">➕</button>
+      <button type="button" @click="addAutoSlot('lab')" title="Añadir 2h de laboratorio sin conflictos">➕ Lab</button>
+      <button type="button" @click="addAutoSlot('theory')" title="Añadir 1h de teoría sin conflictos">➕ Teoría</button>
       <input type="hidden" :name="id" :id="id" :value="read">
     </div>
   </div>
@@ -34,7 +36,6 @@
 
 <script setup>
 import { gState, weekDayNames } from '../state.js'
-
 import { ref, computed, onMounted } from 'vue'
 
 const props = defineProps({
@@ -78,6 +79,48 @@ function rm(slot) {
   current.value.splice(current.value.findIndex(o => o.id == slot.id), 1);
 }
 
+function addAutoSlot(type) {
+  const duration = type === 'lab' ? 200 : 100;
+  const availableSlot = findAvailableSlot(duration);
+
+  if (availableSlot) {
+    current.value.push(new gState.model.Slot(
+      --lastId,
+      availableSlot.day, // Corrección: usamos 'day' devuelto por findAvailableSlot
+      availableSlot.startTime,
+      availableSlot.startTime + duration,
+      type === 'lab' ? "Laboratorio" : "Teoría",
+      Object.keys(gState.model.WeekDay)[0], // Corrección: WeekDay está en mayúscula
+      -1
+    ));
+  } else {
+    alert("No hay horarios disponibles sin conflictos para esta franja.");
+  }
+}
+
+function findAvailableSlot(duration) {
+  const weekDays = Object.keys(gState.model.WeekDay); // Corrección: WeekDay en mayúscula
+  const startHour = 800; // 8:00 AM
+  const endHour = 2000; // 8:00 PM
+
+  for (const day of weekDays) {
+    for (let startTime = startHour; startTime + duration <= endHour; startTime += 100) {
+      if (!isConflict(day, startTime, startTime + duration)) {
+        return { day, startTime }; // Corrección: retornamos 'day' y 'startTime'
+      }
+    }
+  }
+  return null;
+}
+
+function isConflict(day, startTime, endTime) {
+  return current.value.some(slot => 
+    slot.weekDay === day &&
+    ((startTime >= slot.startTime && startTime < slot.endTime) || 
+    (endTime > slot.startTime && endTime <= slot.endTime))
+  );
+}
+
 const read = computed(() => {
   return JSON.stringify(current.value);
 })
@@ -91,6 +134,7 @@ const timeToHundreds = t => {
 }
 
 </script>
+
 
 <style scoped>
 .exists {
