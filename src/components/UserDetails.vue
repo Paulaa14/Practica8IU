@@ -114,7 +114,7 @@ const uniqueGroups = computed(() => {
 // Tooltip para mostrar información adicional
 const formatGroupTooltip = (group) => {
     const subject = group.subject.short;
-    const degree = group.subject.degreeName;
+    const degree = group.subject.degree;
     return `${subject} (${degree})`;
 }
 
