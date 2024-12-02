@@ -7,7 +7,7 @@
 <template>
   <table v-if="filteredData.length">
     <thead>
-      <tr>        
+      <tr> 
         <th v-for="col in columns" :key="col.key"
         @click="sortBy(col.key)"
         :class="sorter.length && sorter.slice(-1)[0].key == col.key ? 'ghead active' : 'ghead'">
