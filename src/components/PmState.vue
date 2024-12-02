@@ -121,16 +121,15 @@
             @editGroup="editGroup(selected.id)" @rmGroup="rmGroup(selected.id)" />
         </div>
       </div>
-<!-- Panel de detalles superpuesto -->
-<div v-if="showDetails" class="details-overlay">
-  <div class="details-content">
-    <button @click="showDetails = false" class="close-btn">Cerrar</button>
-    <DetailsPane :element="selected" @editUser="editUser(selected.id)" @rmUser="rmUser(selected.id)"
-      @editSubject="editSubject(selected.id)" @rmSubject="rmSubject(selected.id)"
-      @editGroup="editGroup(selected.id)" @rmGroup="rmGroup(selected.id)" />
-  </div>
-
-</div>
+      <!-- Panel de detalles superpuesto -->
+      <div v-if="showDetails" class="details-overlay">
+        <div class="details-content">
+          <button @click="showDetails = false" class="close-btn">Cerrar</button>
+          <DetailsPane :element="selected" @editUser="editUser(selected.id)" @rmUser="rmUser(selected.id)"
+            @editSubject="editSubject(selected.id)" @rmSubject="rmSubject(selected.id)"
+            @editGroup="editGroup(selected.id)" @rmGroup="rmGroup(selected.id)" />
+        </div>
+      </div>
     </div>
   </div>
 

@@ -120,6 +120,7 @@ const placeBoxes = () => {
 
 // otherwise boxes keep to their old positions!
 addEventListener("resize", placeBoxes)
+addEventListener("scroll", placeBoxes)
 
 onMounted(() => {
     tableBody = document.getElementById(bodyId)
