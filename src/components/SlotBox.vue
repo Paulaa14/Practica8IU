@@ -6,6 +6,7 @@
   <div class="row g-1">
     <div class="col-3 text-end">
       <label :for="id" class="form-label">{{ label }}</label>
+      <span> {{ groupId }}</span>
     </div>
     <div class="col-9 text-start">
       <div v-for="slot in current" :key="slot.id" class="caja">
@@ -27,6 +28,7 @@
         <button type="button" @click="rm(slot)">🗑️</button>
       </div>
       <button type="button" @click="add">➕</button>
+      <button type="button especial" @click.prevent="addSpecial">(➕)</button>
       <input type="hidden" :name="id" :id="id" :value="read">
     </div>
   </div>
@@ -41,6 +43,7 @@ const props = defineProps({
   label: String,
   id: String,
   start: Array,
+  groupId: Number,
 })
 
 const current = ref([])
@@ -67,11 +70,38 @@ function setLocation(slot) {
   slot.location = document.getElementById(`${props.id}-${slot.id}-location`).value
 }
 
+function setLastLocation(slot) {
+  slot.location = document.querySelector('[id*="-location"]').value
+}
+
 function add() {
   // negative ids to be able to create the slots later
   current.value.push(new gState.model.Slot(
     --lastId, Object.keys(gState.model.WeekDay)[0], 900, 1000,
     "???", Object.keys(gState.model.WeekDay)[0], -1));
+}
+
+function addSpecial() {
+  console.log("Hola mundo")
+  let weekDay = Object.keys(gState.model.WeekDay)[0];
+  let startTime = 900;
+  let endTime = 2000;
+  let nextId = --lastId;
+  let valid = false;
+  let s = null;
+  for (let start = startTime; ! valid && start < endTime; start += 100) {
+    let group = gState.resolve(props.groupId);
+    console.log("group is", group)
+    let subject = gState.resolve(group.subjectId);
+    console.log("subject is", subject)
+    s = new gState.model.Slot(nextId, weekDay, start, start + 100,
+      "???" /*location*/, 
+      subject.semester /*semester*/, 
+      props.groupId /*groupId*/);
+    setLastLocation(s);
+    valid = !gState.model.overlapsOtherSlots(s, gState.model.getSlots());
+  }
+  current.value.push(s);
 }
 
 function rm(slot) {
@@ -95,6 +125,10 @@ const timeToHundreds = t => {
 <style scoped>
 .exists {
   background-color: lightblue;
+}
+
+.special {
+  border: 2px solid green;
 }
 
 .caja {

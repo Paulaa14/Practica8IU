@@ -712,7 +712,9 @@ function rmGroup(groupId) {
 
     // elimina de asignatura
     const subject = cache.get(g.subjectId)
-    U.rmWhere(subject.groups, o => o.id == groupId);
+    console.log("before:", JSON.stringify(subject.groups))
+    const rc = U.rmWhere(subject.groups, o => o == groupId);
+    console.log("after:", JSON.stringify(subject.groups), "removed", rc)
 
     // elimina de grupos
     const removals = U.rmWhere(state.groups, o => o.id == groupId);
