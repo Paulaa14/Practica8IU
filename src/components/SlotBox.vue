@@ -24,11 +24,10 @@
         en
         <input type="text" :id="`${id}-${slot.id}-location`" :name="`${id}-${slot.id}-location`" :value="slot.location"
           @input="setLocation(slot)" />
-        <button type="button" @click="rm(slot)" title = "Eliminar slot">🗑️</button>
+        <button type="button" @click="rm(slot)">🗑️</button>
       </div>
-      <button type="button" @click="add" title = "Añadir nuevo slot">➕</button>
-      <button type="button" @click="addAutoSlot('lab')" title="Añadir 2h de laboratorio sin conflictos">➕ Lab</button>
-      <button type="button" @click="addAutoSlot('theory')" title="Añadir 1h de teoría sin conflictos">➕ Teoría</button>
+      <button type="button" @click="add">➕</button>
+      <button type="button especial" @click.prevent="addSpecial">(➕)</button>
       <input type="hidden" :name="id" :id="id" :value="read">
     </div>
   </div>
@@ -36,12 +35,14 @@
 
 <script setup>
 import { gState, weekDayNames } from '../state.js'
+
 import { ref, computed, onMounted } from 'vue'
 
 const props = defineProps({
   label: String,
   id: String,
   start: Array,
+  groupId: Number,
 })
 
 const current = ref([])
@@ -68,6 +69,10 @@ function setLocation(slot) {
   slot.location = document.getElementById(`${props.id}-${slot.id}-location`).value
 }
 
+function setLastLocation(slot) {
+  slot.location = document.querySelector('[id*="-location"]').value
+}
+
 function add() {
   // negative ids to be able to create the slots later
   current.value.push(new gState.model.Slot(
@@ -75,50 +80,31 @@ function add() {
     "???", Object.keys(gState.model.WeekDay)[0], -1));
 }
 
+function addSpecial() {
+  console.log("Hola mundo")
+  let weekDay = Object.keys(gState.model.WeekDay)[0];
+  let startTime = 900;
+  let endTime = 2000;
+  let nextId = --lastId;
+  let valid = false;
+  let s = null;
+  for (let start = startTime; ! valid && start < endTime; start += 100) {
+    let group = gState.resolve(props.groupId);
+    console.log("group is", group)
+    let subject = gState.resolve(group.subjectId);
+    console.log("subject is", subject)
+    s = new gState.model.Slot(nextId, weekDay, start, start + 100,
+      "???" /*location*/, 
+      subject.semester /*semester*/, 
+      props.groupId /*groupId*/);
+    setLastLocation(s);
+    valid = !gState.model.overlapsOtherSlots(s, gState.model.getSlots());
+  }
+  current.value.push(s);
+}
+
 function rm(slot) {
   current.value.splice(current.value.findIndex(o => o.id == slot.id), 1);
-}
-
-function addAutoSlot(type) {
-  const duration = type === 'lab' ? 200 : 100;
-  const availableSlot = findAvailableSlot(duration);
-
-  if (availableSlot) {
-    current.value.push(new gState.model.Slot(
-      --lastId,
-      availableSlot.day, // Corrección: usamos 'day' devuelto por findAvailableSlot
-      availableSlot.startTime,
-      availableSlot.startTime + duration,
-      type === 'lab' ? "Laboratorio" : "Teoría",
-      Object.keys(gState.model.WeekDay)[0], // Corrección: WeekDay está en mayúscula
-      -1
-    ));
-  } else {
-    alert("No hay horarios disponibles sin conflictos para esta franja.");
-  }
-}
-
-function findAvailableSlot(duration) {
-  const weekDays = Object.keys(gState.model.WeekDay); // Corrección: WeekDay en mayúscula
-  const startHour = 800; // 8:00 AM
-  const endHour = 2000; // 8:00 PM
-
-  for (const day of weekDays) {
-    for (let startTime = startHour; startTime + duration <= endHour; startTime += 100) {
-      if (!isConflict(day, startTime, startTime + duration)) {
-        return { day, startTime }; // Corrección: retornamos 'day' y 'startTime'
-      }
-    }
-  }
-  return null;
-}
-
-function isConflict(day, startTime, endTime) {
-  return current.value.some(slot => 
-    slot.weekDay === day &&
-    ((startTime >= slot.startTime && startTime < slot.endTime) || 
-    (endTime > slot.startTime && endTime <= slot.endTime))
-  );
 }
 
 const read = computed(() => {
@@ -135,10 +121,13 @@ const timeToHundreds = t => {
 
 </script>
 
-
 <style scoped>
 .exists {
   background-color: lightblue;
+}
+
+.special {
+  border: 2px solid green;
 }
 
 .caja {

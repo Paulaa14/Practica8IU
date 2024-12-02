@@ -23,7 +23,7 @@
             :displayCol="'userName'" id="e-teacherId" label="Profesor" />
           <br>
           <SlotBox 
-            :start="group.slots"
+            :start="group.slots" :groupId ="group.id"
             id="e-slots" label="Slots" />
         </div>
         <button type="submit" class="invisible">Submit</button>
