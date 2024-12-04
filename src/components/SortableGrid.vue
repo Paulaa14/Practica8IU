@@ -7,7 +7,7 @@
 <template>
   <table v-if="filteredData.length">
     <thead>
-      <tr>        
+      <tr> 
         <th v-for="col in columns" :key="col.key"
         @click="sortBy(col.key)"
         :class="sorter.length && sorter.slice(-1)[0].key == col.key ? 'ghead active' : 'ghead'">
@@ -49,10 +49,6 @@
 </tbody>
 </table>
 <p v-else>(no hay nada que mostrar)</p>
-<!--<button type = "button" data-bs-toggle = "button" class = "imput-group-text btn btn-outline-secondary b-limpiar-orden" @click="">-->
-<!--Copiar el boton de otro sitio, lo cambias pa q se vea bonito, cambias lo q hace -->
-  
-<!--</button-->
 </template>
 
 <script setup>

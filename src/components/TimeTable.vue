@@ -16,7 +16,7 @@
         </table>
         <div v-for="slot in slots" :key="slot.id" 
             :id="`${bodyId}${slot.id}`" 
-            :class="slot.semester == 'FALL' ? 'ttb c1' : 'ttb c2'" 
+            :class="slot.semester == 'Otoño' ? 'ttb c1' : 'ttb c2'" 
             :title="JSON.stringify(slot)"
             :data-slot="slot">
             <span>{{ formatNiceGroup(slot.groupId) }}</span>
@@ -120,6 +120,7 @@ const placeBoxes = () => {
 
 // otherwise boxes keep to their old positions!
 addEventListener("resize", placeBoxes)
+addEventListener("scroll", placeBoxes)
 
 onMounted(() => {
     tableBody = document.getElementById(bodyId)

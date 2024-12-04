@@ -31,7 +31,7 @@
     <h5>Acciones</h5>
     <div class="btn-group">
       <button @click="$emit('editSubject')" class="btn btn-outline-success" title = "Editar asignatura">✏️</button>
-      <button @click="$emit('rmSubject')" class="btn btn-outline-danger" title = "Eliminar asignatura">🗑️</button>
+      <button @click="confirmDelete()" :disabled="subject.groups.length !== 0" class="btn btn-outline-danger" title = "Eliminar asignatura">🗑️</button>
     </div>
 </template>
 
@@ -39,13 +39,20 @@
 
 import { gState } from '../state.js';
 
-defineEmits([
+const emit = defineEmits([
   'editSubject',
   'rmSubject',
 ])
 
-defineProps({
+const props = defineProps({
   subject: Object // see definition of Subject in ../model.js
 })
+
+const confirmDelete = () => {
+  if (confirm(`¿Estás seguro de que quieres borrar la asignatura ${props.subject.name}?`)) {
+    emit('rmSubject')
+    alert('Asignatura borrada con exito')
+  }
+}
 
 </script>

@@ -20,6 +20,7 @@
 </template>
 
 <script setup>
+
 import LocationDetails from './LocationDetails.vue';
 import UserDetails from './UserDetails.vue';
 import SubjectDetails from './SubjectDetails.vue';
@@ -32,22 +33,56 @@ defineEmits([
   'rmSubject',
   'editGroup',
   'rmGroup',
-])
+  'goBack'
+]);
 
 defineProps({
   element: Object // a User, Subject, Group, Slot or Location; use {id: -1} for "nothing"
-})
+});
 
 </script>
 
 <style scoped>
-tr>th {
+
+tr > th {
   width: 10em;
   text-align: right;
 }
 
+
+/* Estilo de la sección vacía */
 .empty {
   margin: 2em;
+  text-align: center;
+  font-size: 1rem;
+  padding: 15px;
+  line-height: 1.5;
+}
+
+/* Media query para pantallas móviles */
+@media (max-width: 600px) {
+  .details-container {
+    font-size: 14px;
+    padding: 0.8em;
+  }
+
+  .empty {
+    font-size: 0.9rem;
+    padding: 15px;
+    margin: 1.5em;
+  }
+
+  h5 {
+    font-size: 1.2rem;
+  }
+
+  tr > th {
+    width: auto; /* Asegura que las celdas de las tablas se ajusten al contenido */
+  }
+
+  td, th {
+    font-size: 14px; /* Asegura que las celdas de las tablas tengan una fuente más pequeña */
+  }
 }
 
 .name {

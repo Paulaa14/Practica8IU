@@ -31,7 +31,7 @@
   <h5>Acciones</h5>
   <div class="btn-group">
     <button @click="$emit('editGroup')" class="btn btn-outline-success" title = "Editar grupo">✏️</button>
-    <button @click="$emit('rmGroup')" class="btn btn-outline-danger" title = "Eliminar grupo">🗑️</button>
+    <button @click="confirmDelete()" class="btn btn-outline-danger" title = "Eliminar grupo">🗑️</button>
   </div>
 </template>
 
@@ -42,7 +42,7 @@ import TimeTable from './TimeTable.vue';
 import { gState, weekDayNames } from '../state.js';
 import { ref, computed } from 'vue'
 
-defineEmits([
+const emit = defineEmits([
   'editGroup',
   'rmGroup',
 ])
@@ -79,6 +79,13 @@ const addSlotCols = (ss) => {
 
 // 1450 => 14:50
 const formatTime = t => `${Math.floor(t / 100)}:` + `0${t % 100}`.slice(-2)
+
+const confirmDelete = () => {
+  if (confirm(`¿Estás seguro de que quieres borrar el grupo ${props.group.name}?`)) {
+    emit('rmGroup')
+    alert('Grupo borrado con exito')
+  }
+}
 
 </script>
 

@@ -128,7 +128,7 @@ class Slot {
  */
 const UserRole = {
     ADMIN: 'admin', 
-    TEACHER: 'teacher',
+    TEACHER: 'profesor',
 }
 
 /**
@@ -146,8 +146,8 @@ const WeekDay = {
  * Possible semesters
  */
 const Semester = {
-    SPRING: 'C1',
-    FALL: 'C2',  
+    Primavera: 'C1',
+    Otoño: 'C2',  
 }
 
 class Util {
@@ -1010,7 +1010,7 @@ function overlapsOtherSlots(slot, slots, includingLocation=true) {
         // pues sí: hay conflicto
         return true;
     }
-    return null;
+    return false;
 }
 
 /**
