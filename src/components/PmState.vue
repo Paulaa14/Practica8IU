@@ -476,4 +476,31 @@ span.filter:hover {
   font-size: 20px;
   cursor: pointer;
 }
+
+/* Ocultar por defecto el panel superpuesto */
+.details-overlay {
+  display: none; /* No mostrar en pantallas más grandes */
+}
+
+/* Mostrar solo en pantallas móviles (ancho máximo 768px) */
+@media (max-width: 768px) {
+  .details-overlay {
+    display: flex; /* Hacerlo visible en móviles */
+  }
+}
+
+/* Asegurar que el panel de detalles normal no se muestre en móviles */
+@media (max-width: 768px) {
+  #div-details {
+    display: none; /* Ocultar el panel de detalles en móviles */
+  }
+}
+
+/* Asegurar que el panel de detalles superpuesto esté oculto en dispositivos más grandes */
+@media (min-width: 769px) {
+  .details-overlay {
+    display: none; /* Ocultar el overlay en pantallas más grandes */
+  }
+}
+
 </style>
