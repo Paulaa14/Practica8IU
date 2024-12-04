@@ -1010,7 +1010,7 @@ function overlapsOtherSlots(slot, slots, includingLocation=true) {
         // pues sí: hay conflicto
         return true;
     }
-    return false;
+    return null;
 }
 
 /**

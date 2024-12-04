@@ -26,8 +26,8 @@
           @input="setLocation(slot)" />
         <button type="button" @click="rm(slot)">🗑️</button>
       </div>
-      <button type="button" @click="add">➕</button>
-      <button type="button especial" @click.prevent="addSpecial">(➕)</button>
+      <button type="button" @click="add" title = "Añadir nuevo horario">➕</button>
+      <button type="button especial" @click.prevent="addSpecial" title = "Primer horario disponible">📎</button>
       <input type="hidden" :name="id" :id="id" :value="read">
     </div>
   </div>
@@ -69,7 +69,7 @@ function setLocation(slot) {
   slot.location = document.getElementById(`${props.id}-${slot.id}-location`).value
 }
 
-function setLastLocation(slot) {
+function setFirstLocation(slot) {
   slot.location = document.querySelector('[id*="-location"]').value
 }
 
@@ -81,7 +81,6 @@ function add() {
 }
 
 function addSpecial() {
-  console.log("Hola mundo")
   let weekDay = Object.keys(gState.model.WeekDay)[0];
   let startTime = 900;
   let endTime = 2000;
@@ -90,14 +89,12 @@ function addSpecial() {
   let s = null;
   for (let start = startTime; ! valid && start < endTime; start += 100) {
     let group = gState.resolve(props.groupId);
-    console.log("group is", group)
     let subject = gState.resolve(group.subjectId);
-    console.log("subject is", subject)
     s = new gState.model.Slot(nextId, weekDay, start, start + 100,
-      "???" /*location*/, 
-      subject.semester /*semester*/, 
-      props.groupId /*groupId*/);
-    setLastLocation(s);
+      "???", 
+      subject.semester, 
+      props.groupId);
+    setFirstLocation(s);
     valid = !gState.model.overlapsOtherSlots(s, gState.model.getSlots());
   }
   current.value.push(s);

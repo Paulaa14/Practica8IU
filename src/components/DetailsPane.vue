@@ -32,8 +32,7 @@ defineEmits([
   'editSubject',
   'rmSubject',
   'editGroup',
-  'rmGroup',
-  'goBack'
+  'rmGroup'
 ]);
 
 defineProps({

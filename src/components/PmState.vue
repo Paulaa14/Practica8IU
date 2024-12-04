@@ -170,7 +170,6 @@ import { ref, computed, onMounted, nextTick } from 'vue';
 import { gState, semesterNames } from '../state.js';
 import * as bootstrap from 'bootstrap'
 import * as U from '../util.js'
-import UserDetails from './UserDetails.vue';
 
 // tooltips html para elementos con data-bs-toggle="tooltip"]
 onMounted(() => {
