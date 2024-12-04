@@ -156,9 +156,13 @@ table {
   margin-top: 10px;
 }
 
-thead>tr {
+thead > tr {
   border-bottom: 1px solid gray;
   color: rgb(104, 103, 103);
+}
+
+tbody > tr {
+  border-bottom: 1px solid #ccc; /* Línea de separación entre filas */
 }
 
 tr {
@@ -168,4 +172,5 @@ tr {
 td {
   padding: 10px; /* Padding general */
 }
+
 </style>
