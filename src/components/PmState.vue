@@ -401,7 +401,7 @@ function rmGroup(id) {
 
 <style>
 .navbar {
-  background-color: #faffbb;
+  background-color: #85aaff;
   border-bottom: 2px solid black;
   margin-bottom: 5px
 }
@@ -424,7 +424,7 @@ function rmGroup(id) {
     border-top: 2px solid black;
     border-left: 2px solid black;
     border-right: 2px solid black;
-    border-bottom: 2px solid #faffbb;
+    border-bottom: 2px solid #85aaff;
   }
 }
 
