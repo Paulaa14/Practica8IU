@@ -49,7 +49,6 @@ tr > th {
 }
 
 
-/* Estilo de la sección vacía */
 .empty {
   margin: 2em;
   text-align: center;
@@ -58,7 +57,6 @@ tr > th {
   line-height: 1.5;
 }
 
-/* Media query para pantallas móviles */
 @media (max-width: 600px) {
   .details-container {
     font-size: 14px;
@@ -76,11 +74,11 @@ tr > th {
   }
 
   tr > th {
-    width: auto; /* Asegura que las celdas de las tablas se ajusten al contenido */
+    width: auto; 
   }
 
   td, th {
-    font-size: 14px; /* Asegura que las celdas de las tablas tengan una fuente más pequeña */
+    font-size: 14px; 
   }
 }
 

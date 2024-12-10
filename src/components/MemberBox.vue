@@ -60,7 +60,7 @@ const read = computed(() => {
 .badge {
     display: inline-block;
     padding: 0.5em 1em;
-    background-color: #007bff;
+    background-color: #9500ff;
     color: white;
     border-radius: 0.25rem;
     cursor: pointer;
@@ -72,6 +72,6 @@ const read = computed(() => {
 }
 
 .badge:hover {
-    background-color: #0056b3;
+    background-color: #500188;
 }
 </style>

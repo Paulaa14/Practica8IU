@@ -119,7 +119,7 @@ function sortBy(key) {
 <style scoped>
 th.ghead {
   white-space: nowrap;
-  text-align: center; /* Centra el texto en los encabezados */
+  text-align: center; 
 }
 
 .arrow.asc::after {
@@ -148,10 +148,10 @@ span.name {
 }
 
 .badge-primary {
-  background-color: #007bff;
+  background-color: #9500ff;
 }
 
-/* Añadido padding para filas y celdas */
+
 table {
   margin-top: 10px;
 }
@@ -162,15 +162,15 @@ thead > tr {
 }
 
 tbody > tr {
-  border-bottom: 1px solid #ccc; /* Línea de separación entre filas */
+  border-bottom: 1px solid #ccc; 
 }
 
 tr {
-  padding: 10px 0; /* Padding vertical */
+  padding: 10px 0; 
 }
 
 td {
-  padding: 10px; /* Padding general */
+  padding: 10px; 
 }
 
 </style>

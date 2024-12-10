@@ -400,7 +400,7 @@ function rmGroup(id) {
 
 <style>
 .navbar {
-  background-color: #85aaff;
+  background-color: #ab55e9;
   border-bottom: 2px solid black;
   margin-bottom: 5px
 }
@@ -414,7 +414,7 @@ function rmGroup(id) {
   font-weight: bold;
 }
 
-@media(min-width: 995px) {/*sirve para poner un ancho minimo*/
+@media(min-width: 995px) {
   .boxed {
     position: relative;
     bottom: -10px;
@@ -423,7 +423,7 @@ function rmGroup(id) {
     border-top: 2px solid black;
     border-left: 2px solid black;
     border-right: 2px solid black;
-    border-bottom: 2px solid #85aaff;
+    border-bottom: 2px solid #ab55e9;
   }
 }
 
@@ -441,7 +441,7 @@ span.filter {
 }
 
 span.filter:hover {
-  border-bottom: 2px dashed blue;
+  border-bottom: 2px dashed #9500ff;
 }
 .details-overlay {
   position: fixed;
@@ -454,16 +454,16 @@ span.filter:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: auto; /* Permitir desplazamiento */
+  overflow: auto; 
 }
 .details-overlay .details-content {
   background-color: white;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  max-width: 90%; /* Ajustar el ancho máximo para pantallas móviles */
-  max-height: 90%; /* Ajustar la altura máxima para pantallas móviles */
-  overflow-y: auto; /* Permitir desplazamiento vertical */
+  max-width: 90%; 
+  max-height: 90%; 
+  overflow-y: auto; 
 }
 
 .close-btn {
@@ -476,29 +476,29 @@ span.filter:hover {
   cursor: pointer;
 }
 
-/* Ocultar por defecto el panel superpuesto */
+
 .details-overlay {
-  display: none; /* No mostrar en pantallas más grandes */
+  display: none; 
 }
 
-/* Mostrar solo en pantallas móviles (ancho máximo 768px) */
+
 @media (max-width: 768px) {
   .details-overlay {
-    display: flex; /* Hacerlo visible en móviles */
+    display: flex;
   }
 }
 
-/* Asegurar que el panel de detalles normal no se muestre en móviles */
+
 @media (max-width: 768px) {
   #div-details {
-    display: none; /* Ocultar el panel de detalles en móviles */
+    display: none; 
   }
 }
 
-/* Asegurar que el panel de detalles superpuesto esté oculto en dispositivos más grandes */
+
 @media (min-width: 769px) {
   .details-overlay {
-    display: none; /* Ocultar el overlay en pantallas más grandes */
+    display: none; 
   }
 }
 

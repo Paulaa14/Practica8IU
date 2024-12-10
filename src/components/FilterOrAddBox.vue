@@ -80,23 +80,23 @@ function clearFilters() {
 </script>
 
 <style scoped>
-/* Resalta el botón de búsqueda avanzada */
+
 .btn.active.b-avanzada {
   background-color: lightblue;
 }
 
-/* Icono de la lupa */
+
 .lupa-icon {
   background-color: white !important;
-  border: 1px solid #ced4da; /* Coincide con el borde de Bootstrap */
-  border-left: none; /* Quita el borde izquierdo */
-  color: #495057; /* Color del texto */
+  border: 1px solid #ced4da; 
+  border-left: none; 
+  color: #495057; 
   padding: 0.5rem 0.75rem;
   font-size: 1.25rem;
   cursor: default;
 }
 
-/* Alineación de la etiqueta */
+
 .first {
   width: 5em;
 }
