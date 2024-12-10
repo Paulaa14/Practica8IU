@@ -17,7 +17,7 @@
                     <span 
                         v-for="group in uniqueGroups" 
                         :key="group.groupId" 
-                        class="badge bg-primary me-1"
+                        class="badge badge-primary me-1"
                         :title="formatGroupTooltip(group)"
                         data-bs-toggle="tooltip">
                         {{ group.name }}
@@ -45,7 +45,6 @@ import TimeTable from './TimeTable.vue';
 
 import { gState, semesterNames, weekDayNames } from '../state.js';
 import { ref, computed } from 'vue'
-
 const emit = defineEmits([
   'filterUser',
   'editUser',
@@ -127,11 +126,24 @@ const formatNiceGroup = groupId => {
     return `${subject.short}:${group.name}`
 }
 
+
 const confirmDelete = () => {
     if (confirm(`¿Estás seguro de que quieres borrar el usuario ${props.user.firstName} ${props.user.lastName}?`)) {
         emit('rmUser')
-        alert('Usuario borrado con exito')
     }
 }
-
 </script>
+<style scoped>
+.badge {
+  display: inline-block;
+  padding: 0.5em 1em;
+  margin: 0.2em;
+  border-radius: 0.25rem;
+  color: white;
+  font-size: 0.85rem;
+}
+
+.badge-primary {
+  background-color: #9500ff;
+}
+</style>

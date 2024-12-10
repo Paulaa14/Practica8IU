@@ -21,7 +21,13 @@
         <tr>
           <th>Grupos</th>
           <td v-if="subject.groups.length">
-            {{ subject.groups.map(g => gState.resolve(g).name).join(' ') }}
+            <span 
+              v-for="group in subject.groups" 
+              :key="group" 
+              class="badge badge-primary me-1"
+              :title="gState.resolve(group).name"
+              data-bs-toggle="tooltip">
+              {{ gState.resolve(group).name }}</span>
           </td>
           <td v-else> (ninguno) </td>
         </tr>
@@ -56,3 +62,9 @@ const confirmDelete = () => {
 }
 
 </script>
+<style scoped>
+.badge-primary {
+  background-color: #9500ff; /* Color morado */
+  color: white;
+}
+</style>

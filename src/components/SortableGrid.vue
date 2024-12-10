@@ -152,6 +152,7 @@ span.name {
 }
 
 
+
 table {
   margin-top: 10px;
 }
@@ -172,5 +173,4 @@ tr {
 td {
   padding: 10px; 
 }
-
 </style>

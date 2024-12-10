@@ -88,7 +88,7 @@ function clearFilters() {
 
 .lupa-icon {
   background-color: white !important;
-  border: 1px solid #ced4da; 
+  border: none;
   border-left: none; 
   color: #495057; 
   padding: 0.5rem 0.75rem;

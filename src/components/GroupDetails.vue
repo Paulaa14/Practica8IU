@@ -83,7 +83,6 @@ const formatTime = t => `${Math.floor(t / 100)}:` + `0${t % 100}`.slice(-2)
 const confirmDelete = () => {
   if (confirm(`¿Estás seguro de que quieres borrar el grupo ${props.group.name}?`)) {
     emit('rmGroup')
-    alert('Grupo borrado con exito')
   }
 }
 

@@ -19,7 +19,7 @@
         <div class="modal-footer">
           <slot name="footer"></slot>
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
-            Close
+            Cerrar
           </button>
         </div>
       </div>

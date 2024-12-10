@@ -10,11 +10,11 @@
         </div>
         <div class="col-9 text-start">
             <div v-for="o in possible" :key="o.id" class="caja">
-                <span v-if="o.id == current" class="exists" 
+                <span v-if="o.id == current" class="exists"
                     @click="current = ''">
                     {{ o[displayCol] }}
                 </span>
-                <span v-else @click="current = o.id">
+                <span v-else class = "badge badge-primary me-1" @click="current = o.id">
                     {{ o[displayCol] }}
                 </span>
             </div>
@@ -48,10 +48,15 @@ onMounted(() => {
 <style scoped>
 .exists {
     background-color: lightblue;
+    cursor: pointer;
 }
 
 .caja {
     display: inline-block;
     padding: 2px;
+}
+.badge-primary {
+    background-color: #9500ff;
+    cursor: pointer;
 }
 </style>

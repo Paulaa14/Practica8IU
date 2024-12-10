@@ -89,4 +89,8 @@ defineExpose({ show });
     .name {
         font-weight: 200%;
     }
+    .btn-primary {
+  background-color: #9500ff;
+  border-color: #9500ff;
+}
 </style>

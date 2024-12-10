@@ -3,7 +3,7 @@
   <!-- Navbar principal -->
   <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">PlanDoc</a>
+      <a class="navbar-brand text-white" href="#">PlanDoc</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -18,7 +18,7 @@
           </li>
           <li class="nav-item">
             <a href="#" aria-current="page"
-              :class="`nav-link active ${gState.currentListing == 'subjects' ? 'boxed' : ''}`"
+              :class="`nav-link active ${gState.currentListing == 'subjects' ? 'boxed text-white' : ''}`"
               @click="gState.currentListing = 'subjects'">Asignaturas</a>
           </li>
           <li class="nav-item">
@@ -403,6 +403,9 @@ function rmGroup(id) {
   background-color: #ab55e9;
   border-bottom: 2px solid black;
   margin-bottom: 5px
+}
+.nav-link.active{
+  color: white !important;
 }
 
 .escape {
