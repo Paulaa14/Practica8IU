@@ -1,34 +1,29 @@
-<!--
-    Muestra un filtro de la forma {all: '', fields: {}} y un botón de añadir elemento
-    El filtro tiene dos modos: normal y por campos, y es posible cambiar entre estos modos.
-    - modo normal deja fields: a {}
-    - modo avanzado deja all: a ''
-
-    Si no estás en modo avanzado, el modelo es filter.all con el que buscas por 1 unico campo. Sino es filter.fields y desactiva la entrada de texto,
-    no te deja escribir.
-
-    El title es el texto alternativo del botón
--->
 <template>
   <div class="row">
     <div class="col-auto w-75">
       <div class="input-group">
         <input v-if="!advSearch" v-model="filter.all" type="search" 
           class="form-control" placeholder="Filtrar">
-        <input v-else value="(filtrando por campos)" disabled="disabled" type="search" class="form-control"
-          placeholder="Filtrar">
-        <span class="input-group-text btn-outline-secondary">🔍</span>
-        <button type="button" data-bs-toggle="button" class="input-group-text btn btn-outline-secondary b-avanzada"
-          @click="toggleAdvanced()" title="Búsqueda avanzada">⚙️</button> <!-- Al pulsar el botón cambia el modo con el toggleAdvanced-->
+        <input v-else value="(filtrando por campos)" disabled type="search" 
+          class="form-control" placeholder="Filtrar">
+        
+        <!-- Lupa sin parecer botón -->
+        <span class="input-group-text lupa-icon">🔍</span>
+
+        <button type="button" class="input-group-text btn btn-outline-secondary b-avanzada"
+          @click="toggleAdvanced()" title="Búsqueda avanzada">⚙️</button>
       </div>
     </div>
-    <div class="col-auto"> <!-- BOTÓN DE LIMPIAR FILTROS -->
-      <button type="button" data-bs-toggle="button" class="btn btn-outline-secondary" @click="clearFilters()" title="Limpiar filtros">🧹</button>
+    <div class="col-auto">
+      <button type="button" class="btn btn-outline-secondary" 
+        @click="clearFilters()" title="Limpiar filtros">🧹</button>
     </div>
     <div v-if="addBtnTitle" class="col-auto">
-      <button type="button" :title="addBtnTitle" @click="$emit('addElement')" class="btn btn-outline-primary">➕</button>
+      <button type="button" :title="addBtnTitle" 
+        @click="$emit('addElement')" class="btn btn-outline-primary">➕</button>
     </div>
   </div>
+
   <div v-if="advSearch" class="row mt-3">
     <div class="col-auto">
       <div v-for="col in columns" :key="col.key">
@@ -49,28 +44,27 @@
 <script setup>
 import { ref, useId } from 'vue'
 
-// eslint generates (bogus) error unless prevented from doing so with this comment:
+// eslint genera un error falso a menos que se evite con este comentario:
 // eslint-disable-next-line
 const filter = defineModel('filter') // {all: '', fields: {keyCol1: '', ...}}
 
 defineProps({
   addBtnTitle: String,
-  columns: Array,     // of {key: , display:, type:, [values: ]}; see SortableGrid  
+  columns: Array,     // de {key: , display:, type:, [values: ]}; ver SortableGrid  
 })
 
 defineEmits(['addElement'])
 
 const advSearch = ref(filter.value.fields.length > 0)
-
 const id = useId()
 
 function updateValue(key) {
-  const prev = {... filter.value.fields};
+  const prev = { ...filter.value.fields }
   prev[key] = document.getElementById(`${id}_${key}`).value
-  filter.value = {all: '', fields: prev}
+  filter.value = { all: '', fields: prev }
 }
 
-// vacía la parte del filtro que no esté seleccionada
+// Vacía la parte del filtro que no esté seleccionada
 function toggleAdvanced() {
   advSearch.value = !advSearch.value
   if (advSearch.value) {
@@ -81,16 +75,28 @@ function toggleAdvanced() {
 }
 
 function clearFilters() {
-  filter.value = {all: '', fields: {}};
+  filter.value = { all: '', fields: {} }
 }
-
 </script>
 
 <style scoped>
+/* Resalta el botón de búsqueda avanzada */
 .btn.active.b-avanzada {
   background-color: lightblue;
 }
 
+/* Icono de la lupa */
+.lupa-icon {
+  background-color: white !important;
+  border: 1px solid #ced4da; /* Coincide con el borde de Bootstrap */
+  border-left: none; /* Quita el borde izquierdo */
+  color: #495057; /* Color del texto */
+  padding: 0.5rem 0.75rem;
+  font-size: 1.25rem;
+  cursor: default;
+}
+
+/* Alineación de la etiqueta */
 .first {
   width: 5em;
 }

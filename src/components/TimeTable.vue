@@ -16,7 +16,7 @@
         </table>
         <div v-for="slot in slots" :key="slot.id" 
             :id="`${bodyId}${slot.id}`" 
-            :class="slot.semester == 'Otoño' ? 'ttb c1' : 'ttb c2'" 
+            :class="slot.semester == 'C1' ? 'ttb c1' : 'ttb c2'" 
             :title="JSON.stringify(slot)"
             :data-slot="slot">
             <span>{{ formatNiceGroup(slot.groupId) }}</span>

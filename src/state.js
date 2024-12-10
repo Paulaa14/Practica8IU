@@ -43,8 +43,8 @@ export const gState = reactive({
 })
 
 export const semesterNames = {
-    Otoño: "Otoño",
-    Primavera: "Primav.",
+    Otoño: "C1",
+    Primavera: "C2",
 }
 
 export const weekDayNames = {
